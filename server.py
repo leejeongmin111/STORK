@@ -8,8 +8,11 @@ from yolov5.yolov5.detect import run
 import cv2
 from PIL import Image
 from yolov5.nlp.nlp import sentiment_predict
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 
 # model = keras.models.load_model('best_model_GRU.h5')
 # model = load_model('model/my_fashion_mnist_model.h5')

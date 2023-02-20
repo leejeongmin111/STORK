@@ -53,7 +53,7 @@ const BabyDiaryWritePage = () => {
     // console.log(uploadFile);
     formData.append("files", uploadFile);
     axios
-      .post("/realyolo", formData, {
+      .post("http://localhost:5000/realyolo", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

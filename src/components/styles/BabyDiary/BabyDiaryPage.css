@@ -56,9 +56,9 @@
   width: 60px;
   height: 60px;
 }
-.bd-graph-go-btn:active,
+/* .bd-graph-go-btn:active, */
 .bdback-arrow:active,
-.bddate-check-btn:active,
+/* .bddate-check-btn:active, */
 .bdpen-icon,
 .bdwrite-btn-icon {
   position: absolute;

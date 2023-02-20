@@ -13,7 +13,7 @@ def runocr():
 
 
   if (img.shape[0] <= 70 & img.shape[1] <= 80):
-    img_resize = cv2.resize(img,(img.shape[1]*2,img.shape[0]*2))
+    img_resize = cv2.resize(img, (int(img.shape[1] * 1024 / img.shape[0]), 1024))
   else:
     img_resize = img
 
@@ -24,7 +24,7 @@ def runocr():
   FL = None
   CRL = None
 
-  for i in range(60,150,5):
+  for i in range(60,155,5):
       print(i)
       img2 = img_resize.copy()
       gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)

@@ -9,7 +9,7 @@
 .div2_cale_week:hover {
   font-size: larger;
   font-weight: bolder;
-  text-decoration : underline;
+  text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
@@ -17,17 +17,18 @@
 .day-group6-item_cale_week {
   position: absolute;
   height: 10%;
-  width: 100%;
+  width: 90%;
   top: 40%;
   right: 0;
   bottom: 50%;
   left: 0;
-  background-color: rgba(240,97,96,0.3);
+  border-radius: 5px;
+  background-color: rgba(237, 0, 0, 0.3);
 }
 .day-group6-item_cale_week {
   top: 57.14%;
   bottom: 32.86%;
-  background-color: rgba(151,71,255,0.5);
+  background-color: rgba(151, 71, 255, 0.5);
 }
 .day-group5_cale_week,
 .day-group6_cale_week {
@@ -90,6 +91,6 @@
   overflow: hidden;
   text-align: center;
   font-size: 15px;
-  color:#000;
+  color: #000;
   font-family: Inter;
 }

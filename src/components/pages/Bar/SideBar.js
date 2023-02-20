@@ -9,6 +9,7 @@ import emergency_icon from "../../../assets/images/Bar/emergency_icon.png";
 import labor_icon from "../../../assets/images/Bar/labor_icon.png";
 
 import "../../styles/Bar/SideBar.css";
+import BannerImg from "./BannerImg";
 
 const SideBar = () => {
   const navigate = useNavigate();
@@ -29,7 +30,9 @@ const SideBar = () => {
         <img className="labor-div-icon" alt="" src={labor_div} />
         <img className="labor-icon1" alt="" src={labor_icon} />
       </button>
-      <div className="banner-div" />
+      <div className="banner-div">
+        <BannerImg />
+      </div>
       <img className="emergency-icon" alt="" src={emergency} />
       <button className="emergency-btn" onClick={onEmergencyBtnClick}>
         <img className="labor-div-icon" alt="" src={labor_div} />

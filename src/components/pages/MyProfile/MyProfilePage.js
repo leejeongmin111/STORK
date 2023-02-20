@@ -97,8 +97,8 @@ const MyProfilePage = () => {
       .catch(() => {
         console.log("데이터 보내기 실패");
       });
-    // navigate("/Main");
-    window.location.href='/Main'
+    navigate("/Main");
+    // window.location.href='/Main'
     // window.location.reload()
   };
 

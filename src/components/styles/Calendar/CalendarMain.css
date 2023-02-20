@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
 .div9_cale_main,
 .february {
   position: absolute;
@@ -68,8 +75,7 @@
   left: 18.13%;
 }
 .div15_cale_main,
-.div16_cale_main
-.div17_cale_main,
+.div16_cale_main .div17_cale_main,
 .div18_cale_main,
 .div19_cale_main,
 .div20_cale_main,
@@ -370,7 +376,7 @@
   right: 81.87%;
   bottom: 60%;
   left: 5.33%;
-  background-color: rgba(240,97,36,0.3);
+  background-color: rgba(240, 97, 36, 0.3);
 }
 .frame-child1_cale_main,
 .frame-child2_cale_main,
@@ -405,7 +411,7 @@
   right: 81.87%;
   bottom: 58.27%;
   left: 5.33%;
-  background-color: rgba(151,71,255,0.5);
+  background-color: rgba(151, 71, 255, 0.5);
 }
 .frame-child4_cale_main,
 .frame-child5_cale_main,
@@ -421,7 +427,7 @@
 .frame-child6_cale_main {
   top: 28.35%;
   bottom: 70.65%;
-  background-color: rgba(240, 97,36,0.3);
+  background-color: rgba(240, 97, 36, 0.3);
 }
 .div46_cale_main {
   position: absolute;
@@ -471,7 +477,7 @@
   right: 30.67%;
   bottom: 1.87%;
   left: 5.33%;
-  background-color: rgba(217,217,217,0.5);
+  background-color: rgba(217, 217, 217, 0.5);
 }
 .frame-child8_cale_main,
 .frame-child9_cale_main {
@@ -514,6 +520,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 .frame-child11_cale_main {
   height: 2.16%;
@@ -540,6 +547,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 .parent_cale_main {
   height: 695px;
@@ -563,46 +571,52 @@
   color: #000;
   font-family: Inter;
 }
-.empty_box_cale_main{
+.empty_box_cale_main {
   width: 10%;
   height: 25%;
   /* background-color: #000; */
 }
-.calendar_memo{
+.calendar_memo {
   width: 120%;
   outline: none;
-  background-color: rgba(217, 217, 217, 0.3 );
+  background-color: rgba(217, 217, 217, 0.3);
   height: 30px;
   border-radius: 20px;
   border: #000;
-  border: 1px solid  rgba(217, 217, 217, 0.5 );
+  border: 2px solid #eda1a1;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
 }
-.calendar_time{
+.calendar_time {
   margin-left: 1%;
   width: 40%;
-  height: 30px;
-  background-color: rgba(217, 217, 217, 0.3 );
-  border: 1px solid  rgba(217, 217, 217, 0.5 );
+  height: 32px;
+  background-color: rgba(217, 217, 217, 0.3);
   border-radius: 20px;
   font-size: 12px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid #eda1a1;
+  border-radius: 20px;
 }
-.calendar_sub{
+.calendar_sub {
   margin-left: 3%;
-  width: 50%;
+  width: 45%;
   height: 95%;
-  background-color: #fff;
-  border: 1px solid  rgba(217, 217, 217, 0.5 );
-  border-radius: 50%;
+  background-color: #ea7171;
+  border: 3px solid rgba(217, 217, 217, 0.5);
+  border-radius: 50px;
   box-shadow: 3px 3px 3px rgba(217, 217, 217);
-  text-align:center;
+  text-align: center;
   line-height: 58px;
   font-size: 60px;
+  color: white;
+  font-family: "PoetsenOne-Regular";
 }
-.memo_box{
+.memo_box {
   width: 90%;
   height: 10%;
   display: inline-flex;
@@ -611,30 +625,30 @@
   align-items: center;
 }
 
-.empty_box2_cale_main{
+.empty_box2_cale_main {
   /* background-color: #000; */
   height: 10%;
   width: 5%;
 }
-.time_modal{
+.time_modal {
   width: 200px;
   height: 70px;
   overflow-y: scroll;
   -ms-overflow-style: none; /* 인터넷 익스플로러 */
-    scrollbar-width: none; /* 파이어폭스 */
+  scrollbar-width: none; /* 파이어폭스 */
 }
-.time_modal_box{
+.time_modal_box {
   margin-top: 130%;
 }
 #time_modal::-webkit-scrollbar {
   display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
-.cale_time_btn{
+.cale_time_btn {
   left: 30%;
 }
-.parent_cale_main{
+.parent_cale_main {
   -ms-overflow-style: none;
 }
-.parent_cale_main::-webkit-scrollbar{
- display:none;
+.parent_cale_main::-webkit-scrollbar {
+  display: none;
 }

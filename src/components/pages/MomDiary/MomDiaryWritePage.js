@@ -26,7 +26,7 @@ const MomDiaryWritePage = () => {
   const onMDwritecompleteDivClick = async(e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/nlp", formData)
+      const res = await axios.post("http://localhost:5000/nlp", formData)
       console.log(res)
       axios
         .post("http://127.0.0.1:3001/diarywrite", {
