@@ -13,10 +13,18 @@ const CalendarWeeks = (props) => {
     start_blood,
     end_blood,
     blood,
+    temp_date
 
   } = props;
-
-
+  
+  let date_ss = []
+  for(let i =0; i<= 6 ; i ++){
+    if(date[i]==temp_date){
+      date_ss[i] = {fontSize : 'large', fontWeight : 'bold', textDecoration : 'underline', textDecorationThickness : '2px'};
+    }else{
+      date_ss[i] = {}
+    }
+  }
   
   // 날짜 계산
   let dis = []
@@ -106,37 +114,37 @@ const CalendarWeeks = (props) => {
   return (
     <div className="calendar-weeks">
       <div className="day-group6_cale_week" onClick={Click_date} style = {dis[6]}>
-        <div className="div2_cale_week" onClick={dd} >{date[6]}</div>
+        <div className="div2_cale_week" onClick={dd} style = {date_ss[6]}>{date[6]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[6]} />
         <div className="day-group6-item_cale_week" style = {memo[6]} />
       </div>
       <div className="day-group5_cale_week" onClick={Click_date} style = {dis[5]}>
-        <div className="div2_cale_week" >{date[5]}</div>
+        <div className="div2_cale_week" style = {date_ss[5]}>{date[5]} </div>
         <div className="day-group6-child_cale_week" style={dis_child[5]} />
         <div className="day-group6-item_cale_week" style = {memo[5]} />
       </div>
       <div className="day-group4_cale_week" onClick={Click_date} style = {dis[4]}>
-        <div className="div2_cale_week">{date[4]}</div>
+        <div className="div2_cale_week" style = {date_ss[4]}>{date[4]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[4]}/>
         <div className="day-group6-item_cale_week" style = {memo[4]}/>
       </div>
-      <div className="day-group3_cale_week" onClick={Click_date} style = {dis[3]}>
-        <div className="div2_cale_week">{date[3]}</div>
+      <div className="day-group3_cale_week" onClick={Click_date} style = {dis[3]} >
+        <div className="div2_cale_week"style = {date_ss[3]}>{date[3]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[3]} />
         <div className="day-group6-item_cale_week" style = {memo[3]}/>
       </div>
       <div className="day-group2_cale_week" onClick={Click_date} style = {dis[2]}>
-        <div className="div2_cale_week">{date[2]}</div>
+        <div className="div2_cale_week"style = {date_ss[2]}>{date[2]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[2]}/>
         <div className="day-group6-item_cale_week" style = {memo[2]}/>
       </div>
       <div className="day-group1_cale_week" onClick={Click_date} style = {dis[1]}>
-        <div className="div2_cale_week">{date[1]}</div>
+        <div className="div2_cale_week"style = {date_ss[1]}>{date[1]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[1]}/>
         <div className="day-group6-item_cale_week"style = {memo[1]} />
       </div>
       <div className="day-group0_cale_week" onClick={Click_date} style = {dis[0]}>
-        <div className="div2_cale_week">{date[0]}</div>
+        <div className="div2_cale_week"style = {date_ss[0]}>{date[0]}</div>
         <div className="day-group6-child_cale_week" style={dis_child[0]}/>
         <div className="day-group6-item_cale_week" style = {memo[0]}/>
       </div>

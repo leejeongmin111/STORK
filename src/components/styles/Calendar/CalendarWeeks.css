@@ -6,12 +6,12 @@
   left: 0;
   display: inline-block;
 }
-.div2_cale_week:hover {
+/* .div2_cale_week:hover   {
   font-size: larger;
   font-weight: bolder;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-}
+} */
 
 .day-group6-child_cale_week,
 .day-group6-item_cale_week {

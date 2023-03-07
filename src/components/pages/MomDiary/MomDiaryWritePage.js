@@ -20,13 +20,11 @@ const MomDiaryWritePage = () => {
   const [detail, setDetail] = useState("");
 
   const navigate = useNavigate();
-  const formData = new FormData();
-  formData.append('a', detail)
 
   const onMDwritecompleteDivClick = async(e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/nlp", formData)
+      const res = await axios.post("http://localhost:5000/nlp", {detail:detail})
       console.log(res)
       axios
         .post("http://127.0.0.1:3001/diarywrite", {
@@ -35,7 +33,7 @@ const MomDiaryWritePage = () => {
           date: getToday(),
           kg: kg,
           detail: detail,
-          score : 100-Math.round(parseFloat(res.data[0])*100),
+          score : 100-Math.round(parseFloat(res.data)*100),
         })
         .then(
           navigate("/MomDiary")

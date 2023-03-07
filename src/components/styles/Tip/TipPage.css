@@ -278,3 +278,9 @@ li:last-child,
 li:first-child{
   display: none;
 }
+.labor-compo-inputdiv{
+  -ms-overflow-style: none;
+}
+body::-webkit-scrollbar{
+ display:none;
+}

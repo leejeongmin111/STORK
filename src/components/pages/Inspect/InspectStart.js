@@ -4,7 +4,7 @@ import InspectRight from "./Inspect_right";
 import Data from "../../data/Inspect_Data"
 
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Header from "../Bar/Header";
 import Footer from "../Bar/Footer";
 
@@ -15,7 +15,35 @@ const InspectStart = () => {
     // console.log(Data.indexOf[0]('6주 이전'))  
     console.log(cli_Title)
   }
-
+  const [scroll, setScroll] = useState();
+  useEffect(()=>{
+    setScroll(1);
+  })
+  let week = JSON.parse(localStorage.getItem("baby")).week
+  let target;
+  if(week <= 6){
+    target = 0;
+  }else if(7<=week && week <=9){
+    target = 1;
+  }else if(10<=week && week <=13){
+    target = 2;
+  }else if(14<=week && week <=20){
+    target = 3;
+  }else if(21<=week && week <=23){
+    target = 4;
+  }else if(24<=week && week <=28){
+    target = 5;
+  }else if(29<=week && week <=33){
+    target = 6;
+  }else if(34<=week && week <=36){
+    target = 7;
+  }else if(37<=week && week <=40){
+    target = 8;
+  }
+  useEffect(()=>{
+    document.getElementsByClassName('inspect-start')[target].scrollIntoView();
+    window.scrollBy(0, -58)
+  },[scroll])
   const [cli_Title, setCli_Title] = useState();
   function click_title(e){
     setCli_Title(e.target.outerText);

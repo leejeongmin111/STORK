@@ -42,13 +42,13 @@ def flprint(text):
     return FL
 
 def crlprint(text):
-  regex = re.compile(r'CRL\d+[.]\d+cm')
+  regex = re.compile(r'BPD\d+[.]\d+cm')
   matchobj = regex.search(text)
   if matchobj != None:
     CRL = matchobj.group()
-    CRL = CRL.replace("CRL","")
+    CRL = CRL.replace("BPD","")
     CRL = CRL.replace("cm","")
-    print("CRL : " + CRL)
+    print("BPD : " + CRL)
     CRL = float(CRL)
     print(CRL)
     return CRL
@@ -152,5 +152,6 @@ def ocrtext(text):
   string_text = text.replace('\n',"")
   string_text = string_text.replace('-',"")
   string_text = string_text.replace(' ',"")
+  # string_text = re.sub(r'[^0-9a-zA-Z]','',text)
   string_text = str(string_text)
   return string_text

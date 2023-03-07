@@ -81,10 +81,10 @@ const MyProfilePage = () => {
     };
   }, []);
 
-  const onMDwritecompleteDivClick = (e) => {
+  const onMDwritecompleteDivClick = async(e) => {
     e.preventDefault();
-    axios
-      .post("http://127.0.0.1:3001/modifyprofile", {
+    try {
+      await axios.post("http://127.0.0.1:3001/modifyprofile",{
         seq: JSON.parse(localStorage.getItem("user")).seq,
         kid_nick: kid_nick,
         kid_start: kid_start,
@@ -92,14 +92,13 @@ const MyProfilePage = () => {
         lastmentstruation : last_blood,
         shortmensterm : shortTerm.split('일')[0],
         longmensterm : longTerm.split('일')[0],
-      })
-      .then()
-      .catch(() => {
-        console.log("데이터 보내기 실패");
       });
+    } catch (error) {
+      console.log("데이터 보내기 실패");
+      console.log(error);
+    }
     navigate("/Main");
-    // window.location.href='/Main'
-    // window.location.reload()
+    
   };
 
 

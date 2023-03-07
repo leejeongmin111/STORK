@@ -23,6 +23,7 @@ const CalendarMain = () => {
 
   // 버튼 그림자 스타일
   const [btnStyle, setBtnStyle] = useState({});
+  const [date_style, setDate_style] = useState({});
 
   let now = new Date();
   const month_arr = [
@@ -149,6 +150,7 @@ const CalendarMain = () => {
               month={month}
               data={data}
               blood={blood}
+              temp_date = {date}
             />
           </div>
         );
@@ -248,6 +250,7 @@ const CalendarMain = () => {
   }, [data]);
 
   useEffect(() => {
+
     // 일자별 일정들
     if (data != undefined) {
       setMemoArr(
@@ -279,6 +282,66 @@ const CalendarMain = () => {
         })
       );
     }
+    let temp = new Date(year, month, 0);
+    let total = temp.getDate();
+
+    let current;
+    let current_date;
+    let current_day;
+
+    // 주차별 날짜
+    let weeks_date = [[], [], [], [], [], []];
+
+    // num_st 주차
+    let num_st = 0;
+    for (let i = 1; i <= total; i++) {
+      current = new Date(year + "-" + month + "-" + i);
+      current_date = current.getDate(); // 날짜
+      current_day = current.getDay(); // 요일
+
+      weeks_date[num_st][current_day] = current_date;
+
+      if (current_day == 6) {
+        num_st++;
+      }
+    }
+
+    for (let e = 0; e < 6; e++) {
+      for (let i = 0; i < 7; i++) {
+        if (weeks_date[e][i] == undefined) {
+          weeks_date[e][i] = 0;
+        }
+      }
+    }
+
+    let weeks_memo = [[], [], [], [], [], []];
+
+    setWeeks(
+      weeks_date.map((week) => {
+        let dis;
+        if (week[0] == 0 && week[6] == 0) {
+          setMemoStyle(0);
+          dis = { display: "none" };
+        } else {
+          setMemoStyle(70);
+          dis = { display: "block" };
+        }
+        return (
+          <div style={dis}>
+            <CalendarWeeks
+              Click_date={Click_date}
+              date={week}
+              year={year}
+              month={month}
+              data={data}
+              blood={blood}
+              temp_date = {date}
+            />
+          </div>
+        );
+      })
+    );
+    
   }, [date]);
 
   function next_month() {

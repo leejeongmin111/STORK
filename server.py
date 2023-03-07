@@ -9,10 +9,10 @@ import cv2
 from PIL import Image
 from yolov5.nlp.nlp import sentiment_predict
 from flask_cors import CORS
+import json
 
 app = Flask(__name__)
 CORS(app)
-
 
 # model = keras.models.load_model('best_model_GRU.h5')
 # model = load_model('model/my_fashion_mnist_model.h5')
@@ -35,7 +35,8 @@ def hello() :
 @app.route('/nlp', methods =['POST','GET'])
 def runnlp() :
     print("runnlp실행")
-    result = request.form.get('a')
+    result = request.data
+    result = json.loads(result.decode('utf-8'))['detail']
     result = sentiment_predict(result)
     print(result)
     return result
