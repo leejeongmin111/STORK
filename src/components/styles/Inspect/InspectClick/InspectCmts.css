@@ -1,0 +1,68 @@
+.inspect-cmts-child {
+  /* position: absolute;
+  height: 90%;
+  width: 88.53%;
+  top: 5.33%;
+  right: 5.87%;
+  bottom: 4.67%;
+  left: 5.6%;
+  background-color: rgba(237, 161, 161, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px dashed #000;
+  box-sizing: border-box; */
+}
+.b_inspect_cmts {
+  /* position: absolute; */
+  width: 100%;
+  top: 8.06%;
+  margin-left: 9%;
+  letter-spacing: -0.2px;
+  display :inline-block;
+  font-size: 15px;
+  text-align: left;
+  /* background-color:  #eda1a1; */
+  color:  #ea7171;;
+  /* text-decoration: underline; */
+}
+.p_inspect_cmts {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: left;
+  margin-top: 5%;
+  /* margin-bottom: 5%; */
+  padding-bottom: 10%;
+
+}
+.b1_inspect_cmts {
+  /* position: absolute; */
+  width: 80.53%;
+  top: 22.73%;
+  left: 10.67%;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+  display: inline-block;
+  color: rgba(26, 24, 24, 0.7);
+}
+.inspect-cmts {
+  /* position: relative; */
+  background-color: #fff;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 17px;
+  color: #000;
+  font-family: var(--font-poppins);
+}
+.box_ins_click{
+  /* height: 90%; */
+  /* width: 88.53%; */
+  /* margin-bottom: 7%; */
+  /* background-color: rgba(237, 161, 161, 0.2); */
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid  #eda1a1;
+  box-sizing: border-box; 
+  border-radius: 8%; */
+  /* margin-left: 5%; */
+
+}

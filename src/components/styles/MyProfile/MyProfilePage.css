@@ -1,0 +1,339 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.myprofile-check-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--color-lightcoral-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 109px;
+  height: 44px;
+}
+.myprofile-check-btn-text-icon {
+  position: absolute;
+  top: 9px;
+  left: 27px;
+  width: 55.43px;
+  height: 26.28px;
+}
+.myprofile-check-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 669px;
+  left: 43px;
+  width: 109px;
+  height: 44px;
+}
+.myprofile-check-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.myprofile-blood-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 150px;
+  height: 253px;
+}
+.myprofile-blood-text3-div {
+  position: absolute;
+  top: 213px;
+  left: 32px;
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  width: 86px;
+  height: 25px;
+}
+.myprofile-blood-text3-icon {
+  position: absolute;
+  top: 167.56px;
+  left: 23.01px;
+  width: 103.82px;
+  height: 37.8px;
+}
+.myprofile-blood-text2-div {
+  position: absolute;
+  top: 129px;
+  left: 32px;
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  width: 86px;
+  height: 25px;
+}
+.myprofile-blood-text2-icon {
+  position: absolute;
+  top: 83.56px;
+  left: 23.01px;
+  width: 103.82px;
+  height: 37.8px;
+}
+.myprofile-blood-text1-div {
+  position: absolute;
+  top: 47px;
+  left: 15px;
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  width: 120px;
+  height: 25px;
+}
+.myprofile-blood-text1-icon {
+  position: absolute;
+  top: 19.56px;
+  left: 14.36px;
+  width: 121.12px;
+  height: 14.8px;
+}
+.myprofile-blood-div {
+  position: absolute;
+  top: 473px;
+  left: 199px;
+  width: 150px;
+  height: 253px;
+}
+.myprofile-blood-title-icon {
+  position: absolute;
+  top: 451px;
+  left: 243px;
+  width: 62.81px;
+  height: 15.73px;
+}
+.myprofile-date-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 148px;
+  height: 158px;
+}
+.myprofile-date-end-div {
+  position: absolute;
+  top: 112px;
+  left: 13px;
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  width: 120px;
+  height: 25px;
+}
+.myprofile-date-end-icon {
+  position: absolute;
+  top: 91px;
+  left: 51px;
+  width: 48.11px;
+  height: 15.73px;
+}
+.myprofile-date-start-div {
+  position: absolute;
+  top: 47px;
+  left: 12px;
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  width: 120px;
+  height: 25px;
+}
+.myprofile-date-start-icon {
+  position: absolute;
+  top: 26px;
+  left: 52px;
+  width: 47.09px;
+  height: 15.3px;
+}
+.myprofile-date-div {
+  position: absolute;
+  top: 473px;
+  left: 24px;
+  width: 148px;
+  height: 158px;
+}
+.myprofile-date-title-icon {
+  position: absolute;
+  top: 451px;
+  left: 58px;
+  width: 81.69px;
+  height: 15.73px;
+}
+.myprofile-momname-div {
+  position: absolute;
+  top: 385px;
+  left: 199px;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  display: flex;
+}
+.myprofile-momname-icon {
+  position: absolute;
+  top: 365px;
+  left: 241px;
+  width: 65.95px;
+  height: 15.3px;
+}
+.myprofile-babyname-div {
+  position: absolute;
+  top: 385px;
+  left: 24px;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+}
+.myprofile-babyname-icon,
+.profile-img-div {
+  position: absolute;
+  top: 364px;
+  left: 83px;
+  width: 31.79px;
+  height: 15.73px;
+}
+.profile-img-div {
+  top: 90px;
+  left: 63px;
+  border-radius: 110150px;
+  width: 250px;
+  height: 250px;
+  background-image: url(../../../assets/images/MyProfile/profile_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 1;
+}
+.profile-img-div.animate {
+  animation: 2s ease 0s 1 normal forwards wobble-hor-bottom;
+}
+.myprofile-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}
+
+.MyProfile_BabyName {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "GowunDodum-Regular";
+  text-align: center;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  resize: none;
+  background-color: #f6e9a2;
+}
+
+.MyProfile_MomName {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "GowunDodum-Regular";
+  text-align: center;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  resize: none;
+}
+
+.Pregnant_startDate {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #ea7171;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Pregnant_endDate {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #ea7171;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Blood_startDate {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #ea7171;
+  text-align: center;
+  font-weight: bold;
+}
+
+.short_blood_selectDIV {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #ea7171;
+  text-align: center;
+  font-weight: bold;
+}
+
+.long_blood_selectDIV {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #ea7171;
+  text-align: center;
+  font-weight: bold;
+}

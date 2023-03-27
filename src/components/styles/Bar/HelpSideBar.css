@@ -1,0 +1,155 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.help-sidebar-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightpink-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 375px;
+  height: 76px;
+}
+.help-labor-icon {
+  position: absolute;
+  top: 63px;
+  right: 22.53px;
+  width: 25.47px;
+  height: 7.5px;
+}
+.help-labor-div-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.help-labor-icon1 {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.help-labor-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 65.79%;
+  width: 13.33%;
+  top: 10.53%;
+  right: 2.93%;
+  bottom: 23.68%;
+  left: 83.73%;
+}
+.help-labor-btn:hover {
+  animation: 2s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.help-labor-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.help-stork-icon {
+  position: absolute;
+  top: 26px;
+  left: 127px;
+  width: 120px;
+  height: 36px;
+}
+.help-emergency-icon {
+  position: absolute;
+  top: 62px;
+  left: 10px;
+  width: 50.12px;
+  height: 9.05px;
+}
+.help-emergency-icon1 {
+  position: absolute;
+  height: 64.66%;
+  width: 63%;
+  top: 20%;
+  right: 19%;
+  bottom: 15.34%;
+  left: 18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.help-emergency-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 65.79%;
+  width: 13.33%;
+  top: 10.53%;
+  right: 84%;
+  bottom: 23.68%;
+  left: 2.67%;
+}
+.help-emergency-btn:hover {
+  animation: 2s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.help-emergency-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.help-sidebar {
+  position: fixed;
+  width: 100%;
+  height: 76px;
+  z-index: 9999;
+}

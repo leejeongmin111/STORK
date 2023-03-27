@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PoetsenOne:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=NanumGothicCoding:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poetsenone: "PoetsenOne";
+  --font-mada: Mada;
+  --font-poor-story: "Poor Story";
+  --font-gowun-dodum: "Gowun Dodum";
+  --font-noto-serif-hk: "Noto Serif HK";
+  --font-nanumgothiccoding: NanumGothicCoding;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-5xs: 7px;
+  --font-size-4xs: 9px;
+  --font-size-3xs: 27px;
+  --font-size-2xs: 30px;
+  --font-size-xs: 40px;
+  --font-size-sm: 45px;
+  --font-size-base: 50px;
+  --font-size-lg: 60px;
+  --font-size-7xs: 12px;
+  --font-size-6xs: 15px;
+  --font-size-5xs: 17px;
+  --font-size-4xs: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-pink-100: #f2b0b0;
+  --color-pink-200: #eda1a1;
+  --color-lightpink-100: #f2b0b0;
+  --color-lightpink-200: #eda1a1;
+  --color-lightcoral-100: #ea7171;
+  --color-lightcoral-200: #e17373;
+  --color-black: #000;
+  --color-pink: #fbc8c8;
+  --color-brown-100: #ea7171;
+  --color-brown-200: #d66464;
+  --color-brown-300: #f14668;
+  --color-brown-400: #ee4949;
+  --color-tan-100: #fdeca6;
+  --color-tan-200: #f6e9a2;
+  --color-gray-100: #fffafa;
+  --color-gray-200: #bfe0ff;
+  --color-gray-300: #d9d9d9;
+  --color-gray-400: #030303;
+  --color-teal: #227fb2;
+  --color-lightcoral: #ea7171;
+  --color-palegoldenrod-100: #fdeca6;
+  --color-palegoldenrod-200: #f6e9a2;
+  --color-palegoldenrod-300: #f6e9a2;
+  --color-crimson-100: #f14668;
+  --color-crimson-200: #ee4949;
+  --color-lightsteelblue-100: #bfe0ff;
+  --color-snow: #fffafa;
+  --color-gainsboro-100: #d9d9d9;
+  --color-steelblue: #227fb2;
+  --color-indianred: #d66464;
+  --color-gray-100: #fdfdfd;
+  --color-snow: #fffafa;
+  --color-gainsboro-100: #d9d9d9;
+  --color-floralwhite: #f8f4ea;
+  --color-snow-200: #fff4f4;
+  --color-sandybrown-100: #f1c064;
+  --color-steelblue: #227fb2;
+  --color-lightskyblue-100: #84bee6;
+  --color-floralwhite-100: #f8f4ea;
+  --color-red-100: #ff0505;
+
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 15px;
+
+  /* border radiuses */
+  --br-xs: 5px;
+  --br-sm: 10px;
+  --br-md: 20px;
+  --br-lg: 30px;
+}

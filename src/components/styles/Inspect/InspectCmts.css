@@ -1,0 +1,23 @@
+.p_ins_cmts {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.b_ins_cmts {
+  position: absolute;
+  height: 90.44%;
+  width: 76.53%;
+  top: 1.11%;
+  left: 13.33%;
+  letter-spacing: -0.2px;
+  display: inline-block;
+}
+.inspect-cmts {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 450px;
+  text-align: left;
+  font-size: 20px;
+  color: rgba(26, 24, 24, 0.7);
+  font-family: var(--font-poppins);
+}

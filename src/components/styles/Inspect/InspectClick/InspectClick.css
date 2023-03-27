@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Jua-Regular";
+  src: url("../../../../assets/fonts/Jua-Regular.ttf") format("woff2"),
+    url("../../../../assets/fonts/Jua-Regular.ttf") format("woff"),
+    url("../../../../assets/fonts/Jua-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+.b2_inspect_click,
+.div_inspect_click {
+  /* position: absolute; */
+  left: 0;
+  letter-spacing: -0.2px;
+  display: inline-block;
+  width: 375px;
+}
+.div_inspect_click {
+  top: 28px;
+  font-weight: 100;
+  font-size: 20px;
+  /* display: none; */
+  color: #eda1a1;
+  font-family: "Jua-Regular";
+  background-color: none;
+  width: 65%;
+  margin-bottom: 10%;
+  border: 2px solid #eda1a1;
+  border-radius: 15px;
+}
+.b2_inspect_click {
+  width: 270px;
+  top: 87.8px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  height: 39.89px;
+  font-weight: bold;
+}
+.icon-arrow-ios-back_inspect_click,
+.icon-arrow-ios-forward_inspect_click,
+.parent_inspect_click {
+  /* position: absolute; */
+  top: 93px;
+  left: 26px;
+  width: 30px;
+  height: 30px;
+}
+.icon-arrow-ios-forward_inspect_click,
+.parent_inspect_click {
+  top: 89px;
+  left: 320px;
+}
+.parent_inspect_click {
+  top: 60px;
+  left: 0;
+  width: 375px;
+  height: auto;
+  /* overflow-x: auto; */
+}
+.inspect-click {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-family: var(--font-poppins);
+  overflow-y: auto;
+}
+.empty_box_inspect_click {
+  height: 80px;
+  /* background-color: #000; */
+  width: 10px;
+}
+.icon-arrow-ios-back_inspect_click,
+.icon-arrow-ios-forward_inspect_click {
+  position: absolute;
+  top: 90px;
+  /* left: 5px; */
+}
+.ins_total_cmts {
+  /* background-color: #d95f6e; */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px dashed black;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  font-family: "GowunDodum-Regular";
+  font-weight: bold;
+  width: 88.53%;
+  margin-bottom: 7%;
+  background-color: #fcf3c0;
+}
+
+.inspect-click {
+  -ms-overflow-style: none;
+}
+.inspect-click::-webkit-scrollbar {
+  display: none;
+}

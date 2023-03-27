@@ -1,0 +1,282 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.help-box5-div {
+  position: absolute;
+  top: 2210px;
+  left: 7px;
+  border-radius: var(--br-md);
+  background-color: var(--color-snow-200);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 357px;
+  height: 506px;
+}
+.help-box4-div,
+.help-box5-cover-icon {
+  position: absolute;
+  top: 2220px;
+  left: 17px;
+  width: 337px;
+  height: 483px;
+}
+.help-box4-div {
+  top: 1716px;
+  left: 7px;
+  border-radius: var(--br-md);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 357px;
+  height: 480px;
+}
+.help-box3-div,
+.help-box4-cover-icon {
+  position: absolute;
+  top: 1725px;
+  left: 20px;
+  width: 332px;
+  height: 463px;
+}
+.help-box3-div {
+  top: 1311px;
+  left: 8px;
+  border-radius: var(--br-md);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 357px;
+  height: 391px;
+}
+.help-box2-div,
+.help-box3-cover-icon {
+  position: absolute;
+  top: 1320px;
+  left: 20px;
+  width: 332px;
+  height: 372.05px;
+}
+.help-box2-div {
+  top: 817px;
+  left: 10px;
+  border-radius: var(--br-md);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 357px;
+  height: 480px;
+}
+.help-box2-cover-icon {
+  position: absolute;
+  top: 826px;
+  left: 20px;
+  width: 337px;
+  height: 462px;
+}
+.help-gotop-btn-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.help-arrow-up-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.help-gotop-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  top: 745px;
+  left: 307px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+.help-box2-btn:active,
+.help-box3-btn:active,
+.help-box4-btn:active,
+.help-box5-btn:active,
+.help-gotop-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.cheering-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 15px 15px 0;
+  background-color: var(--color-lightpink-200);
+  width: 263px;
+  height: 38px;
+}
+.cheering-text-icon {
+  position: absolute;
+  top: 12px;
+  left: 19px;
+  width: 224.61px;
+  height: 14.77px;
+}
+.cheering-div,
+.help-box5-btn-div {
+  position: absolute;
+  top: 756px;
+  left: 0;
+  width: 263px;
+  height: 38px;
+}
+.help-box5-btn-div {
+  top: 0;
+  border-radius: 10px;
+  background-color: var(--color-palegoldenrod-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 283px;
+  height: 35px;
+}
+.help-box5-btn,
+.help-box5-btn-title-icon {
+  position: absolute;
+  top: 10px;
+  left: 53px;
+  width: 178.66px;
+  height: 13.08px;
+}
+.help-box5-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 688px;
+  left: 49px;
+  width: 283px;
+  height: 35px;
+}
+.helppage-subtitle2-icon {
+  position: absolute;
+  top: 652px;
+  left: 81px;
+  width: 214.33px;
+  height: 17.38px;
+}
+.help-box4-btn,
+.help-box4-btn-title-icon {
+  position: absolute;
+  top: 10px;
+  left: 94px;
+  width: 95.03px;
+  height: 14.56px;
+}
+.help-box4-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 592px;
+  left: 49px;
+  width: 283px;
+  height: 35px;
+}
+.help-box3-btn,
+.help-box3-btn-title-icon {
+  position: absolute;
+  top: 10px;
+  left: 115px;
+  width: 54.54px;
+  height: 14.16px;
+}
+.help-box3-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 539px;
+  left: 49px;
+  width: 283px;
+  height: 35px;
+}
+.help-box2-btn,
+.help-box2-btn-title-icon {
+  position: absolute;
+  top: 10px;
+  left: 115px;
+  width: 55.19px;
+  height: 14.22px;
+}
+.help-box2-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 487px;
+  left: 48px;
+  width: 283px;
+  height: 35px;
+}
+.help-box1-div,
+.helppage-subtitle1-icon {
+  position: absolute;
+  top: 447px;
+  left: 37px;
+  width: 301.4px;
+  height: 18.87px;
+}
+.help-box1-div {
+  top: 142px;
+  left: 9px;
+  border-radius: var(--br-md);
+  background-color: var(--color-snow-200);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 357px;
+  height: 284px;
+}
+.help-box1-cover-icon {
+  position: absolute;
+  top: 159px;
+  left: 15px;
+  width: 345px;
+  height: 250px;
+}
+.helppage-title-icon {
+  position: absolute;
+  top: 95.69px;
+  left: 103.08px;
+  width: 174.1px;
+  height: 23.73px;
+}
+.labor-helppage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2787px;
+  overflow: hidden;
+}

@@ -1,0 +1,269 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.momdiary-up-btn-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-lightpink-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 135px;
+  height: 37px;
+}
+.mental-btn1:active,
+.mental-btn2:active,
+.mental-btn3:active,
+.momdiary-up-btn-div:active,
+.momdiary-up-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.momdiary-up-btn,
+.momdiary-up-text-icon {
+  position: absolute;
+  top: 11px;
+  left: 21px;
+  width: 99.79px;
+  height: 16.4px;
+}
+.momdiary-up-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 2988px;
+  left: 119px;
+  width: 135px;
+  height: 37px;
+}
+.mental-box1-div {
+  position: absolute;
+  top: 761px;
+  left: 13px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 875px;
+}
+.mental-box1-cover-div-icon,
+.mental-box2-div {
+  position: absolute;
+  top: 774px;
+  left: 23px;
+  width: 330px;
+  height: 850px;
+}
+.mental-box2-div {
+  top: 1654px;
+  left: 13px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 509px;
+}
+.mental-box2-cover-div-icon,
+.mental-box3-div {
+  position: absolute;
+  top: 1666px;
+  left: 24px;
+  width: 329px;
+  height: 477px;
+}
+.mental-box3-div {
+  top: 2181px;
+  left: 13px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 776px;
+}
+.mental-box3-cover-div-icon,
+.mental-btn31 {
+  position: absolute;
+  top: 2195px;
+  left: 22.46px;
+  width: 329.54px;
+  height: 739px;
+}
+.mental-btn31 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-palegoldenrod-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 283px;
+  height: 35px;
+}
+.mental-btn3,
+.mental-btn3-text-icon {
+  position: absolute;
+  top: 11px;
+  left: 22px;
+  width: 240.88px;
+  height: 13.84px;
+}
+.mental-btn3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 698px;
+  left: 46px;
+  width: 283px;
+  height: 35px;
+}
+.mental-btn2,
+.mental-btn2-text-icon {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  width: 257.07px;
+  height: 13.35px;
+}
+.mental-btn2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 644px;
+  left: 46px;
+  width: 283px;
+  height: 35px;
+}
+.mental-btn1,
+.mental-btn1-text-icon {
+  position: absolute;
+  top: 11px;
+  left: 72px;
+  width: 140.46px;
+  height: 13.35px;
+}
+.mental-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 590px;
+  left: 46px;
+  width: 283px;
+  height: 35px;
+}
+.mental-title-icon {
+  position: absolute;
+  top: 549px;
+  left: 103px;
+  width: 170.88px;
+  height: 27.5px;
+}
+.mental-call-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 299px;
+  height: 41px;
+}
+.mental-call-text2-icon {
+  position: absolute;
+  top: 12.58px;
+  left: 192.86px;
+  width: 91.08px;
+  height: 14.62px;
+}
+.mental-call-div,
+.mental-call-text1-icon {
+  position: absolute;
+  top: 13.54px;
+  left: 12.96px;
+  width: 161.32px;
+  height: 14.82px;
+}
+.mental-call-div {
+  top: 486px;
+  left: 38px;
+  width: 299px;
+  height: 41px;
+  opacity: 1;
+}
+.mental-call-div.animate {
+  animation: 2s ease 0s 1 normal forwards jello-horizontal;
+}
+.momdiarymap-div {
+  position: absolute;
+  top: 129.85px;
+  left: 18px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro-100);
+  width: 340px;
+  height: 340px;
+}
+.clinic-title-icon {
+  position: absolute;
+  top: 85.4px;
+  left: 81.6px;
+  width: 212.74px;
+  height: 32.67px;
+}
+.momdiarymap-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3116px;
+  overflow: hidden;
+}

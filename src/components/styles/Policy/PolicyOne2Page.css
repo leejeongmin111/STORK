@@ -1,0 +1,133 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.one2-div1 {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid #eaa083;
+  box-sizing: border-box;
+  width: 342px;
+  height: 547px;
+}
+.one2-1-icon,
+.policyone2-img-div1 {
+  position: absolute;
+  left: 0;
+  border-radius: 10px;
+  width: 312px;
+}
+.policyone2-img-div1 {
+  top: 1px;
+  background-color: var(--color-gainsboro-100);
+  height: 517.42px;
+}
+.one2-1-icon {
+  top: 0;
+  height: 517.71px;
+  object-fit: cover;
+}
+.one2-div,
+.policyone2-img-div {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  width: 312px;
+  height: 518.42px;
+}
+.one2-div {
+  top: 173px;
+  left: 21px;
+  width: 332px;
+  height: 537px;
+}
+.policyone2-title-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px 0 0 15px;
+  background-color: #eba184;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 147px;
+  height: 45px;
+}
+.policyone2-title-icon {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  width: 110.99px;
+  height: 16.78px;
+}
+.one2back-btn-div,
+.policyone2-title-div {
+  position: absolute;
+  top: 92px;
+  left: 228px;
+  width: 147px;
+  height: 45px;
+}
+.one2back-btn-div {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid #eba083;
+  box-sizing: border-box;
+  width: 155px;
+}
+.one2back-btn,
+.one2back-btn-text-icon {
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  width: 106.8px;
+  height: 17.6px;
+}
+.one2back-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 92px;
+  left: 31px;
+  width: 155px;
+  height: 45px;
+}
+.one2back-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.policyone2-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}
+
+.PolicyOne2_images {
+  width: 100%;
+  height: 100%;
+}

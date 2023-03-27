@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.now-baby-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 2px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 333px;
+  height: 237px;
+}
+.now-baby-text {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  display: inline-block;
+  width: 320px;
+  height: 226px;
+  display: grid;
+  place-content: center;
+}
+.now-baby-text-div {
+  position: absolute;
+  top: 1060px;
+  left: 21px;
+  width: 333px;
+  height: 237px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.now-baby-title-text {
+  position: absolute;
+  top: 1019.8px;
+  left: 22px;
+  color: var(--color-lightpink-200);
+  display: flex;
+  align-items: center;
+  width: 325px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.now-baby-title-icon,
+.tip-baby-imgdiv {
+  position: absolute;
+  top: 1000.2px;
+  left: 22.42px;
+  width: 137.77px;
+  height: 18px;
+}
+.tip-baby-imgdiv {
+  top: 812px;
+  left: 27px;
+  background-color: var(--color-white);
+  width: 320px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tip-baby-title-icon {
+  position: absolute;
+  top: 769.58px;
+  left: 65.86px;
+  width: 243.22px;
+  height: 25.74px;
+}
+.tip-gotop-btn-div-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.tip-arrow-up-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.tip-baby-gobtn-div,
+.tip-gotop-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.tip-gotop-btn {
+  background-color: transparent;
+  top: 683px;
+  left: 307px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  z-index: 100;
+}
+.tip-baby-gobtn-div:active,
+.tip-baby-gobtn:active,
+.tip-gotop-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.tip-baby-gobtn-div {
+  background-color: var(--color-lightcoral-100);
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 208px;
+  height: 37px;
+}
+.tip-baby-gobtn {
+  position: absolute;
+}
+.tip-baby-gobtn-text-icon {
+  position: absolute;
+  top: 9px;
+  left: 23px;
+  width: 162.14px;
+  height: 17.16px;
+}
+.tip-baby-gobtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 695px;
+  left: 29px;
+  width: 208px;
+  height: 37px;
+}
+.now-mom-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f6e9a2;
+  border: 2px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 333px;
+  height: 237px;
+}
+.now-mom-text {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  display: inline-block;
+  width: 319px;
+  height: 226px;
+  font-size: 13px;
+  font-weight: bold;
+  display: grid;
+  place-content: center;
+}
+.now-mom-text-div,
+.now-mom-title-text {
+  position: absolute;
+  top: 435px;
+  left: 21px;
+  width: 333px;
+  height: 237px;
+}
+.now-mom-title-text {
+  top: 402.8px;
+  color: var(--color-lightpink-200);
+  display: flex;
+  align-items: center;
+  width: 325px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.now-mom-title-icon {
+  position: absolute;
+  top: 383px;
+  left: 21.6px;
+  width: 138.18px;
+  height: 18px;
+}
+.tip-mom-imgdiv {
+  top: 196.5px;
+  left: 27px;
+  background-color: var(--color-white);
+  width: 320px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.numbering-div,
+.tip-mom-imgdiv {
+  position: absolute;
+}
+.tip-mom-title-icon {
+  position: absolute;
+  top: 160.08px;
+  left: 65.03px;
+  width: 243.77px;
+  height: 25.74px;
+}
+.numbering-div {
+  top: 100.5px;
+  left: 33px;
+  background-color: var(--color-white);
+  width: 309px;
+  height: 35px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tip-title-text-icon {
+  position: absolute;
+  top: 77px;
+  left: 114.56px;
+  width: 137.08px;
+  height: 18.75px;
+}
+.tip-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1433px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: "GowunDodum-Regular";
+}
+
+.baby-img-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.mom-img-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+li:last-child,
+li:first-child{
+  display: none;
+}
+.labor-compo-inputdiv{
+  -ms-overflow-style: none;
+}
+body::-webkit-scrollbar{
+ display:none;
+}

@@ -1,0 +1,654 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+.div9_cale_main,
+.february {
+  position: absolute;
+  width: 100%;
+  left: 0.8%;
+  display: inline-block;
+}
+.div9_cale_main {
+  top: 5.76%;
+  font-size: 40px;
+}
+.february {
+  height: 4.46%;
+  top: 12.95%;
+}
+.icon-arrow-ios-back,
+.icon-arrow-ios-forward {
+  position: absolute;
+  height: 7.19%;
+  width: 15.43%;
+  top: 6.76%;
+  right: 72.56%;
+  bottom: 86.04%;
+  left: 12.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-arrow-ios-forward {
+  right: 7.74%;
+  left: 76.82%;
+}
+.div10_cale_main,
+.div11_cale_main,
+.div12_cale_main,
+.div13_cale_main,
+.div14_cale_main {
+  position: absolute;
+  height: 10.07%;
+  width: 12.8%;
+  top: 65.18%;
+  display: inline-block;
+}
+.div10_cale_main {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.div11_cale_main,
+.div12_cale_main,
+.div13_cale_main,
+.div14_cale_main {
+  left: 69.33%;
+}
+.div12_cale_main,
+.div13_cale_main,
+.div14_cale_main {
+  left: 56.53%;
+}
+.div13_cale_main,
+.div14_cale_main {
+  left: 43.73%;
+}
+.div14_cale_main {
+  left: 30.93%;
+}
+.div15_cale_main {
+  top: 65.18%;
+  left: 18.13%;
+}
+.div15_cale_main,
+.div16_cale_main .div17_cale_main,
+.div18_cale_main,
+.div19_cale_main,
+.div20_cale_main,
+.div21_cale_main {
+  position: absolute;
+  height: 10.07%;
+  width: 12.8%;
+  display: inline-block;
+}
+.div16_cale_main {
+  top: 65.18%;
+  left: 5.33%;
+  color: #ff0000;
+}
+.div17_cale_main,
+.div18_cale_main,
+.div19_cale_main,
+.div20_cale_main,
+.div21_cale_main {
+  top: 55.11%;
+}
+.div17_cale_main {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.div18_cale_main,
+.div19_cale_main,
+.div20_cale_main,
+.div21_cale_main {
+  left: 69.33%;
+}
+.div19_cale_main,
+.div20_cale_main,
+.div21_cale_main {
+  left: 56.53%;
+}
+.div20_cale_main,
+.div21_cale_main {
+  left: 43.73%;
+}
+.div21_cale_main {
+  left: 30.93%;
+}
+.div22_cale_main {
+  top: 55.11%;
+  left: 18.13%;
+}
+.div22_cale_main,
+.div23_cale_main,
+.div24_cale_main,
+.div25_cale_main,
+.div26_cale_main,
+.div27_cale_main,
+.div28_cale_main {
+  position: absolute;
+  height: 10.07%;
+  width: 12.8%;
+  display: inline-block;
+}
+.div23_cale_main {
+  top: 55.11%;
+  left: 5.33%;
+  color: #ff0000;
+}
+.div24_cale_main,
+.div25_cale_main,
+.div26_cale_main,
+.div27_cale_main,
+.div28_cale_main {
+  top: 45.04%;
+}
+.div24_cale_main {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.div25_cale_main,
+.div26_cale_main,
+.div27_cale_main,
+.div28_cale_main {
+  left: 69.33%;
+}
+.div26_cale_main,
+.div27_cale_main,
+.div28_cale_main {
+  left: 56.53%;
+}
+.div27_cale_main,
+.div28_cale_main {
+  left: 43.73%;
+}
+.div28_cale_main {
+  left: 30.93%;
+}
+.div29_cale_main {
+  top: 45.04%;
+  left: 18.13%;
+}
+.div29_cale_main,
+.div30_cale_main,
+.div31_cale_main,
+.div32_cale_main,
+.div33_cale_main,
+.div34_cale_main,
+.div35_cale_main {
+  position: absolute;
+  height: 10.07%;
+  width: 12.8%;
+  display: inline-block;
+}
+.div30_cale_main {
+  top: 45.04%;
+  left: 5.33%;
+  color: #ff0000;
+}
+.div31_cale_main,
+.div32_cale_main,
+.div33_cale_main,
+.div34_cale_main,
+.div35_cale_main {
+  top: 34.96%;
+}
+.div31_cale_main {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.div32_cale_main,
+.div33_cale_main,
+.div34_cale_main,
+.div35_cale_main {
+  left: 69.33%;
+}
+.div33_cale_main,
+.div34_cale_main,
+.div35_cale_main {
+  left: 56.53%;
+}
+.div34_cale_main,
+.div35_cale_main {
+  left: 43.73%;
+}
+.div35_cale_main {
+  left: 30.93%;
+}
+.div36_cale_main {
+  top: 34.96%;
+  left: 18.13%;
+}
+.div36_cale_main,
+.div37_cale_main,
+.div38_cale_main,
+.div39_cale_main,
+.div40_cale_main,
+.div41_cale_main,
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  position: absolute;
+  height: 10.07%;
+  width: 12.8%;
+  display: inline-block;
+}
+.div37_cale_main {
+  top: 34.96%;
+  left: 5.33%;
+  color: #ff0000;
+}
+.div38_cale_main,
+.div39_cale_main,
+.div40_cale_main,
+.div41_cale_main,
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  top: 24.89%;
+}
+.div38_cale_main {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.div39_cale_main,
+.div40_cale_main,
+.div41_cale_main,
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  left: 69.33%;
+}
+.div40_cale_main,
+.div41_cale_main,
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  left: 56.53%;
+}
+.div41_cale_main,
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  left: 43.73%;
+}
+.div42_cale_main,
+.div43_cale_main,
+.div44_cale_main {
+  left: 30.93%;
+}
+.div43_cale_main,
+.div44_cale_main {
+  left: 18.13%;
+}
+.div44_cale_main {
+  left: 5.33%;
+  color: #ff0000;
+}
+.fri,
+.mon,
+.sat,
+.sun,
+.thu,
+.tue,
+.wed {
+  position: absolute;
+  height: 2.88%;
+  width: 12.8%;
+  top: 19.86%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sat {
+  left: 82.13%;
+  color: #0f56b3;
+}
+.fri,
+.mon,
+.sun,
+.thu,
+.tue,
+.wed {
+  left: 69.33%;
+}
+.mon,
+.sun,
+.thu,
+.tue,
+.wed {
+  left: 56.53%;
+}
+.mon,
+.sun,
+.tue,
+.wed {
+  left: 43.73%;
+}
+.mon,
+.sun,
+.tue {
+  left: 30.93%;
+}
+.mon,
+.sun {
+  left: 18.13%;
+}
+.sun {
+  left: 5.33%;
+  color: #ff0000;
+}
+.div45_cale_main,
+.frame-child_cale_main {
+  position: absolute;
+  width: 100%;
+}
+.div45_cale_main {
+  height: 6.47%;
+  top: 0;
+  left: 0.8%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-child_cale_main {
+  height: 0.29%;
+  top: 75.25%;
+  right: 0;
+  bottom: 24.46%;
+  left: 0;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+.frame-child1_cale_main,
+.frame-child2_cale_main,
+.frame-inner_cale_main,
+.frame-item_cale_main,
+.rectangle-div_cale_main {
+  position: absolute;
+  height: 1.01%;
+  width: 12.8%;
+  top: 38.99%;
+  right: 81.87%;
+  bottom: 60%;
+  left: 5.33%;
+  background-color: rgba(240, 97, 36, 0.3);
+}
+.frame-child1_cale_main,
+.frame-child2_cale_main,
+.frame-inner_cale_main,
+.rectangle-div_cale_main {
+  right: 69.07%;
+  left: 18.13%;
+}
+.frame-child1_cale_main,
+.frame-child2_cale_main,
+.rectangle-div_cale_main {
+  right: 56.27%;
+  left: 30.93%;
+}
+.frame-child1_cale_main,
+.frame-child2_cale_main {
+  right: 43.47%;
+  left: 43.73%;
+}
+.frame-child2_cale_main {
+  right: 30.67%;
+  left: 56.53%;
+}
+.frame-child3_cale_main,
+.frame-child4_cale_main,
+.frame-child5_cale_main,
+.frame-child6_cale_main {
+  position: absolute;
+  height: 1.01%;
+  width: 12.8%;
+  top: 40.72%;
+  right: 81.87%;
+  bottom: 58.27%;
+  left: 5.33%;
+  background-color: rgba(151, 71, 255, 0.5);
+}
+.frame-child4_cale_main,
+.frame-child5_cale_main,
+.frame-child6_cale_main {
+  right: 30.67%;
+  left: 56.53%;
+}
+.frame-child5_cale_main,
+.frame-child6_cale_main {
+  right: 5.07%;
+  left: 82.13%;
+}
+.frame-child6_cale_main {
+  top: 28.35%;
+  bottom: 70.65%;
+  background-color: rgba(240, 97, 36, 0.3);
+}
+.div46_cale_main {
+  position: absolute;
+  height: 2.88%;
+  width: 20.27%;
+  top: 78.71%;
+  left: 0.8%;
+  display: inline-block;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 1.44%;
+  width: 2.67%;
+  top: 84.03%;
+  right: 89.33%;
+  bottom: 14.53%;
+  left: 8%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div47_cale_main,
+.div48_cale_main {
+  position: absolute;
+  height: 3.6%;
+  top: 83.02%;
+  display: flex;
+  align-items: center;
+}
+.div47_cale_main {
+  width: 73.07%;
+  left: 27.73%;
+  text-align: left;
+}
+.div48_cale_main {
+  width: 13.33%;
+  left: 12%;
+  justify-content: center;
+}
+.frame-child7_cale_main,
+.frame-child8_cale_main,
+.frame-child9_cale_main {
+  position: absolute;
+  height: 4.46%;
+  width: 64%;
+  top: 93.67%;
+  right: 30.67%;
+  bottom: 1.87%;
+  left: 5.33%;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+.frame-child8_cale_main,
+.frame-child9_cale_main {
+  width: 10.67%;
+  right: 2.4%;
+  left: 86.93%;
+}
+.frame-child9_cale_main {
+  right: 15.73%;
+  left: 73.6%;
+}
+.frame-child10_cale_main,
+.icon-arrow-ios-downward {
+  position: absolute;
+  height: 7.33%;
+  width: 13.23%;
+  top: 71.87%;
+  right: 43.65%;
+  bottom: 20.79%;
+  left: 43.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child10_cale_main {
+  height: 2.16%;
+  width: 4%;
+  top: 76.69%;
+  right: 12.53%;
+  bottom: 21.15%;
+  left: 83.47%;
+}
+.div49_cale_main {
+  position: absolute;
+  height: 2.88%;
+  width: 10.67%;
+  top: 76.4%;
+  left: 87.73%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.frame-child11_cale_main {
+  height: 2.16%;
+  width: 4%;
+  top: 76.69%;
+  right: 29.6%;
+  bottom: 21.15%;
+  left: 66.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div50_cale_main,
+.frame-child11_cale_main,
+.parent_cale_main {
+  position: absolute;
+}
+.div50_cale_main {
+  height: 2.88%;
+  width: 10.67%;
+  top: 76.4%;
+  left: 69.6%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.parent_cale_main {
+  height: 695px;
+  width: 100%;
+  top: 7.36%;
+  right: 0;
+  bottom: 7.36%;
+  left: 0;
+  overflow-y: auto;
+  /* overflow: hidden;  */
+  overflow-x: hidden;
+}
+.calendar-main {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 815px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-family: Inter;
+}
+.empty_box_cale_main {
+  width: 10%;
+  height: 25%;
+  /* background-color: #000; */
+}
+.calendar_memo {
+  width: 120%;
+  outline: none;
+  background-color: rgba(217, 217, 217, 0.3);
+  height: 30px;
+  border-radius: 20px;
+  border: #000;
+  border: 2px solid #eda1a1;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.calendar_time {
+  margin-left: 1%;
+  width: 40%;
+  height: 32px;
+  background-color: rgba(217, 217, 217, 0.3);
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #eda1a1;
+  border-radius: 20px;
+}
+.calendar_sub {
+  margin-left: 3%;
+  width: 45%;
+  height: 95%;
+  background-color: #ea7171;
+  border: 3px solid rgba(217, 217, 217, 0.5);
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px rgba(217, 217, 217);
+  text-align: center;
+  line-height: 58px;
+  font-size: 60px;
+  color: white;
+  font-family: "PoetsenOne-Regular";
+}
+.memo_box {
+  width: 90%;
+  height: 10%;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 5%;
+  align-items: center;
+}
+
+.empty_box2_cale_main {
+  /* background-color: #000; */
+  height: 10%;
+  width: 5%;
+}
+.time_modal {
+  width: 200px;
+  height: 70px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.time_modal_box {
+  margin-top: 130%;
+}
+#time_modal::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+.cale_time_btn {
+  left: 30%;
+}
+.parent_cale_main {
+  -ms-overflow-style: none;
+}
+.parent_cale_main::-webkit-scrollbar {
+  display: none;
+}

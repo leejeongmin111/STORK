@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.join-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--color-lightcoral-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 192px;
+  height: 41px;
+}
+.join-btn,
+.join-btn-text-icon {
+  position: absolute;
+  top: 7px;
+  left: 44px;
+  width: 104.04px;
+  height: 28.47px;
+}
+.join-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 629px;
+  left: 92px;
+  width: 192px;
+  height: 41px;
+}
+.join-btn:active,
+.join-login-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.join-gender-div {
+  top: 548px;
+  left: 59px;
+  background-color: var(--color-white);
+}
+.join-gender-div,
+.join-id-div,
+.join-name-div,
+.join-phone-div,
+.join-pw-div,
+.join-pwch-div {
+  position: absolute;
+  border-radius: 10px;
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 260px;
+  height: 41px;
+}
+.join-phone-div {
+  top: 477px;
+  left: 58px;
+  background-color: var(--color-white);
+}
+.join-id-div,
+.join-name-div,
+.join-pw-div,
+.join-pwch-div {
+  left: 59px;
+}
+.join-name-div {
+  top: 406px;
+  background-color: #fffef5;
+}
+.join-id-div,
+.join-pw-div,
+.join-pwch-div {
+  top: 335px;
+  background-color: var(--color-white);
+}
+.join-id-div,
+.join-pw-div {
+  top: 264px;
+  left: 58px;
+}
+.join-id-div {
+  top: 193px;
+}
+.join-logo-icon {
+  position: absolute;
+  top: 91px;
+  left: 85px;
+  width: 206.47px;
+  height: 51.17px;
+}
+.join-divdiv-icon,
+.join-logindiv1 {
+  position: absolute;
+  top: 32px;
+  left: 21px;
+  width: 333px;
+  height: 713px;
+}
+.join-logindiv1 {
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 257px;
+  height: 71px;
+}
+.join-logindiv-text-icon,
+.join-login-btn1 {
+  position: absolute;
+  top: 29px;
+  left: 32px;
+  width: 117.23px;
+  height: 14.16px;
+}
+.join-login-btn1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-palegoldenrod-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 69px;
+  height: 31px;
+}
+.join-login-btn-text-icon,
+.join-login-btn {
+  position: absolute;
+  top: 9px;
+  left: 14px;
+  width: 41.64px;
+  height: 16.13px;
+}
+.join-login-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 20px;
+  left: 169px;
+  width: 69px;
+  height: 31px;
+}
+.join-logindiv {
+  position: absolute;
+  top: 710px;
+  left: 59px;
+  width: 257px;
+  height: 71px;
+}
+.join-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}
+
+#join_id,
+#join_passdword,
+#join_passdwordCK,
+#join_username,
+#join_phone,
+#join_gender {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  font-family: "GowunDodum-Regular";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.checkpw {
+  text-align: center;
+  color: red;
+  display:none;
+  position: absolute;
+  top: 360px;
+  left: 110px;
+  font-size:15px;
+}
+
+.checkid {
+  text-align: center;
+  color: red;
+  display:none;
+  position: absolute;
+  top: 218px;
+  left: 110px;
+  font-size:15px;
+}

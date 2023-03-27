@@ -1,0 +1,144 @@
+.footer-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md) var(--br-md) 0 0;
+  background-color: var(--color-lightpink-200);
+  width: 375px;
+  height: 60px;
+}
+.nav-check-btn-div,
+.nav-check-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 60px;
+}
+.nav-check-icon {
+  top: 11px;
+  left: 22px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.nav-check-btn,
+.nav-check-icon1 {
+  position: absolute;
+  top: 44.86px;
+  left: 23.04px;
+  width: 27.92px;
+  height: 7.26px;
+}
+.nav-check-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 300px;
+  width: 75px;
+  height: 60px;
+}
+.nav-tip-icon {
+  position: absolute;
+  top: 12px;
+  left: 22px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.nav-tip-btn,
+.nav-tip-icon1 {
+  position: absolute;
+  top: 44.88px;
+  left: 30.29px;
+  width: 13.41px;
+  height: 7.19px;
+}
+.nav-tip-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 225px;
+  width: 75px;
+  height: 60px;
+}
+.nav-home-icon {
+  position: absolute;
+  top: 10px;
+  left: 22px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.nav-home-btn,
+.nav-home-icon1 {
+  position: absolute;
+  top: 44.87px;
+  left: 25.24px;
+  width: 23.53px;
+  height: 7.24px;
+}
+.nav-home-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 150px;
+  width: 75px;
+  height: 60px;
+}
+.nav-calendar-icon {
+  position: absolute;
+  top: 45px;
+  left: 13px;
+  width: 48.08px;
+  height: 7.3px;
+}
+.nav-calendar-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 75px;
+  width: 75px;
+  height: 60px;
+}
+.nav-policy-btn,
+.nav-policy-icon {
+  position: absolute;
+  top: 45px;
+  left: 22px;
+  width: 30.75px;
+  height: 7.24px;
+}
+.nav-policy-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 60px;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.success {
+  opacity: 1;
+}
+.failure {
+  opacity: 0.3;
+}

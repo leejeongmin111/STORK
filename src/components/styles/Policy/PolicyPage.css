@@ -1,0 +1,130 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.choice3-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-palegoldenrod-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 160px;
+  height: 67px;
+}
+.choice-text3-icon,
+.choice3-btn {
+  position: absolute;
+  top: 23px;
+  left: 21px;
+  width: 117.13px;
+  height: 23.13px;
+}
+.choice3-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 646px;
+  left: 194px;
+  width: 160px;
+  height: 67px;
+}
+.choice1-btn:active,
+.choice2-btn:active,
+.choice3-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.choice-text2-icon,
+.choice2-btn {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+  width: 115.5px;
+  height: 23.13px;
+}
+.choice2-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 646px;
+  left: 20px;
+  width: 160px;
+  height: 67px;
+}
+.choice1-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-palegoldenrod-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 334px;
+  height: 67px;
+}
+.choice-text1-icon,
+.choice1-btn {
+  position: absolute;
+  top: 21px;
+  left: 107px;
+  width: 120.75px;
+  height: 23.76px;
+}
+.choice1-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 547px;
+  left: 20px;
+  width: 334px;
+  height: 67px;
+}
+.pregnantimg-icon {
+  position: absolute;
+  top: 174px;
+  left: 23px;
+  border-radius: 500px;
+  width: 327.01px;
+  height: 330px;
+  object-fit: cover;
+}
+.policy-title-icon {
+  position: absolute;
+  top: 108px;
+  left: 80px;
+  width: 213.22px;
+  height: 34.74px;
+}
+.policypage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}

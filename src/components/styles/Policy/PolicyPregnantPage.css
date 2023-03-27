@@ -1,0 +1,309 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.pregnant-btn6-cover-div {
+  position: absolute;
+  top: 3975px;
+  left: 16px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 1626px;
+}
+.pregnant-btn6-cover-icon {
+  position: absolute;
+  top: 3987px;
+  left: 26px;
+  width: 330px;
+  height: 1600px;
+}
+.pregnant-btn5-cover-div {
+  position: absolute;
+  top: 3154px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 805px;
+}
+.pregnant-btn5-cover-icon {
+  position: absolute;
+  top: 3165px;
+  left: 22px;
+  width: 330px;
+  height: 782px;
+}
+.pregnant-btn4-cover-div {
+  position: absolute;
+  top: 2295px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 843px;
+}
+.pregnant-btn4-cover-icon {
+  position: absolute;
+  top: 2307px;
+  left: 22px;
+  width: 330px;
+  height: 818px;
+}
+.pregnant-btn3-cover-div {
+  position: absolute;
+  top: 1905px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 374px;
+}
+.pregnant-btn3-cover-icon {
+  position: absolute;
+  top: 1917px;
+  left: 22px;
+  width: 330px;
+  height: 352px;
+}
+.pregnant-btn2-cover-div {
+  position: absolute;
+  top: 1466px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 423px;
+}
+.pregnant-btn2-cover-icon {
+  position: absolute;
+  top: 1476px;
+  left: 22px;
+  width: 330px;
+  height: 403px;
+}
+.pregnant-btn1-cover-div {
+  position: absolute;
+  top: 767px;
+  left: 12px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-beige);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 350px;
+  height: 683px;
+}
+.pregnant-btn1-cover-icon {
+  position: absolute;
+  top: 780px;
+  left: 22px;
+  width: 330px;
+  height: 658px;
+}
+.arrow-up-icon,
+.pregnant-gotop-btn-div-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.arrow-up-icon {
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.pregnant-gotop-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  top: 683px;
+  left: 302px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+.pregnant-btn1:active,
+.pregnant-btn2:active,
+.pregnant-btn3:active,
+.pregnant-btn4:active,
+.pregnant-btn5:active,
+.pregnant-btn6:active,
+.pregnant-gotop-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.pregnant-btn6-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-palegoldenrod-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn6,
+.pregnant-btn6-text-icon {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  width: 209.08px;
+  height: 21.53px;
+}
+.pregnant-btn6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 624px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn5,
+.pregnant-btn5-text-icon {
+  position: absolute;
+  top: 13px;
+  left: 88px;
+  width: 124.78px;
+  height: 20.83px;
+}
+.pregnant-btn5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 549px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn4,
+.pregnant-btn4-text-icon {
+  position: absolute;
+  top: 13px;
+  left: 76px;
+  width: 148px;
+  height: 20.81px;
+}
+.pregnant-btn4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 474px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn3,
+.pregnant-btn3-text-icon {
+  position: absolute;
+  top: 13px;
+  left: 97px;
+  width: 106.37px;
+  height: 20.96px;
+}
+.pregnant-btn3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 399px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn2,
+.pregnant-btn2-text-icon {
+  position: absolute;
+  top: 13px;
+  left: 108px;
+  width: 84.78px;
+  height: 20.82px;
+}
+.pregnant-btn2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 324px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.pregnant-btn1,
+.pregnant-btn1-text-icon {
+  position: absolute;
+  top: 13px;
+  left: 85px;
+  width: 130.2px;
+  height: 20.65px;
+}
+.pregnant-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 249px;
+  left: 37px;
+  width: 300px;
+  height: 46px;
+}
+.ppregnant-subtitle-icon {
+  position: absolute;
+  top: 182.1px;
+  left: 60.31px;
+  width: 254.07px;
+  height: 18.6px;
+}
+.ppregnant-title-icon {
+  position: absolute;
+  top: 111.09px;
+  left: 95.57px;
+  width: 182.93px;
+  height: 25.2px;
+}
+.policypregnant-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 5741px;
+  overflow: hidden;
+}

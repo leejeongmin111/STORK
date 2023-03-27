@@ -1,0 +1,392 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.bd-chart-comment-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 345px;
+  height: 35px;
+}
+.bd-chart-comment {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+  height: 29px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bd-chart-comment-div {
+  position: absolute;
+  top: 985px;
+  left: 15px;
+  width: 345px;
+  height: 35px;
+}
+.bd-chart-detail-div1,
+.bdc-fl-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-palegoldenrod-300);
+}
+.bd-chart-detail-div1 {
+  border-radius: var(--br-sm);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 345px;
+  height: 153px;
+}
+.bdc-fl-div1 {
+  width: 313px;
+  height: 33px;
+}
+.bdc-fl-cm-text {
+  position: absolute;
+  top: 6px;
+  left: 254px;
+  display: flex;
+  align-items: center;
+  width: 56px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bdc-fl-text3-icon {
+  position: absolute;
+  top: 8.88px;
+  left: 218.73px;
+  width: 30.68px;
+  height: 16.65px;
+}
+.bdc-fl-num-text,
+.bdc-fl-text2-icon {
+  position: absolute;
+  top: 12px;
+  left: 186px;
+  width: 21.56px;
+  height: 10.95px;
+}
+.bdc-fl-num-text {
+  top: 0;
+  left: 145px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-poetsenone);
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 33px;
+  font-family: "PoetsenOne-Regular";
+  font-size: 25px;
+}
+.bdc-fl-text1-icon {
+  position: absolute;
+  top: 8.52px;
+  left: 1.7px;
+  width: 133.13px;
+  height: 16.92px;
+}
+.bdc-ac-div1,
+.bdc-fl-div {
+  position: absolute;
+  top: 104px;
+  left: 16px;
+  width: 313px;
+  height: 33px;
+}
+.bdc-ac-div1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-palegoldenrod-300);
+  width: 303px;
+}
+.bdc-ac-cm-text {
+  position: absolute;
+  top: 6px;
+  left: 245px;
+  display: flex;
+  align-items: center;
+  width: 55px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bdc-ac-text3-icon {
+  position: absolute;
+  top: 9px;
+  left: 208px;
+  width: 30.68px;
+  height: 16.65px;
+}
+.bdc-ac-num-text,
+.bdc-ac-text2-icon {
+  position: absolute;
+  top: 12px;
+  left: 176px;
+  width: 21.56px;
+  height: 10.95px;
+}
+.bdc-ac-num-text {
+  top: 0;
+  left: 135px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-poetsenone);
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 33px;
+  font-family: "PoetsenOne-Regular";
+  font-size: 25px;
+}
+.bdc-ac-text1-icon {
+  position: absolute;
+  top: 8.52px;
+  left: 0.89px;
+  width: 123.51px;
+  height: 16.92px;
+}
+.bdc-ac-div,
+.bdc-crl-div1 {
+  position: absolute;
+  top: 60px;
+  left: 16px;
+  width: 303px;
+  height: 33px;
+}
+.bdc-crl-div1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-palegoldenrod-300);
+  width: 309px;
+}
+.bdc-crl-cm-text {
+  position: absolute;
+  top: 6px;
+  left: 252px;
+  display: flex;
+  align-items: center;
+  width: 55px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bdc-crl-text3-icon {
+  position: absolute;
+  top: 9px;
+  left: 214px;
+  width: 30.68px;
+  height: 16.65px;
+}
+.bdc-crl-text2-icon {
+  position: absolute;
+  top: 12px;
+  left: 182px;
+  width: 21.56px;
+  height: 10.95px;
+}
+.bdc-crl-num-text {
+  position: absolute;
+  top: 0;
+  left: 141px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-poetsenone);
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 33px;
+  font-family: "PoetsenOne-Regular";
+  font-size: 25px;
+}
+.bdc-crl-div,
+.bdc-crl-text1-icon {
+  position: absolute;
+  top: 8.52px;
+  left: 1.26px;
+  width: 129.61px;
+  height: 16.92px;
+}
+.bdc-crl-div {
+  top: 16px;
+  left: 16px;
+  width: 309px;
+  height: 33px;
+}
+.bd-chart-detail-div {
+  position: absolute;
+  top: 821px;
+  left: 15px;
+  width: 345px;
+  height: 153px;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+}
+.bd-chart-subtitle-icon,
+.detail-btn-div {
+  position: absolute;
+  top: 778.88px;
+  left: 74.61px;
+  width: 224.25px;
+  height: 24.65px;
+}
+.detail-btn-div {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-lightcoral-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 135px;
+  height: 37px;
+}
+.detail-btn,
+.detail-btn-text-icon {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  width: 102.38px;
+  height: 16.64px;
+}
+.detail-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 680px;
+  left: 120px;
+  width: 135px;
+  height: 37px;
+}
+.detail-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.bd-chart-tag-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 360px;
+  height: 35px;
+}
+.bdc-otherbaby-text-icon {
+  position: absolute;
+  top: 9px;
+  left: 241px;
+  width: 106.44px;
+  height: 17.01px;
+}
+.bdc-otherbaby-div {
+  position: absolute;
+  top: 4px;
+  left: 201px;
+  border-radius: var(--br-xs);
+  background-color: #1e5af5;
+  width: 27px;
+  height: 27px;
+}
+.bdc-mybaby-div,
+.bdc-mybaby-text-icon {
+  position: absolute;
+  top: 9px;
+  left: 52px;
+  width: 105.7px;
+  height: 17.01px;
+}
+.bdc-mybaby-div {
+  top: 4px;
+  left: 12px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightcoral-100);
+  width: 27px;
+  height: 27px;
+}
+.bd-chart-div,
+.bd-chart-tag-div {
+  position: absolute;
+  top: 618px;
+  left: 8px;
+  width: 360px;
+  height: 35px;
+  opacity: 0;
+}
+.bd-chart-div.animate,
+.bd-chart-tag-div.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-right;
+}
+.bd-chart-div {
+  top: 144px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-floralwhite);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 466px;
+}
+.bd-chart-title-icon {
+  position: absolute;
+  top: 94.88px;
+  left: 85.14px;
+  width: 204.18px;
+  height: 24.65px;
+}
+.babydiarychart-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1091px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-gowun-dodum);
+}

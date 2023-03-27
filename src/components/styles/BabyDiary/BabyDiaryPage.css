@@ -1,0 +1,563 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.bdpen-icon {
+  position: absolute;
+}
+.bdwrite-btn-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.bdpen-icon {
+  top: 13px;
+  left: 9px;
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+}
+.bdwrite-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 670px;
+  left: 288px;
+  width: 60px;
+  height: 60px;
+}
+.bd-graph-go-btn:active,
+.bdback-arrow:active,
+.bddate-check-btn:active,
+.bdpen-icon,
+.bdwrite-btn-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.bdpen-icon {
+  top: 13px;
+  left: 9px;
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+}
+.bdwrite-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 665px;
+  left: 288px;
+  width: 60px;
+  height: 60px;
+}
+.bd-graph-go-btn:active,
+.bddate-check-btn:active,
+.bdwrite-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.bd-graph-go-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-palegoldenrod-300);
+  box-sizing: border-box;
+  width: 160px;
+  height: 60px;
+}
+.bd-graph-go-btn,
+.bd-graph-go-text-icon {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  width: 112.84px;
+  height: 16.27px;
+}
+.bd-graph-go-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 665px;
+  left: 26px;
+  width: 160px;
+  height: 60px;
+}
+.babydiarytextarea-div,
+.bd-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+}
+.babydiarytextarea-div {
+  background-color: var(--color-palegoldenrod-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 324px;
+  height: 483px;
+}
+.bd-text-div1 {
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 311px;
+  height: 180px;
+}
+.bd-text {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  display: inline-block;
+  width: 295px;
+  height: 171px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.bd-text-div {
+  position: absolute;
+  top: 293.9px;
+  left: 6px;
+  width: 311px;
+  height: 180px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.bddiary-text-div {
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+}
+.bd-cm-cover1,
+.bddiary-text-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 311px;
+  height: 190px;
+}
+.bdfl-text-div1,
+.fl-cm-icon {
+  position: absolute;
+  top: 172px;
+  left: 283px;
+  width: 17.25px;
+  height: 8.76px;
+}
+.bdfl-text-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 60px;
+  height: 25px;
+}
+.bdfl-text {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 19px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bdfl-div1,
+.bdfl-text-div {
+  position: absolute;
+  top: 156px;
+  left: 217px;
+  width: 60px;
+  height: 25px;
+}
+.bdfl-div1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs) 0 0 var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 47px;
+}
+.bdfl-div,
+.bdfl-title-icon {
+  position: absolute;
+  top: 7.5px;
+  left: 15.57px;
+  width: 15.86px;
+  height: 10.77px;
+}
+.bdfl-div {
+  top: 156px;
+  left: 165px;
+  width: 47px;
+  height: 25px;
+}
+.ac-cm-icon,
+.bdac-text-div {
+  position: absolute;
+  top: 125px;
+  left: 283px;
+  width: 17.25px;
+  height: 8.76px;
+}
+.bdac-text-div {
+  top: 109px;
+  left: 217px;
+  width: 60px;
+  height: 25px;
+}
+.bdac-div,
+.bdac-title-icon {
+  position: absolute;
+  top: 7.5px;
+  left: 13.84px;
+  width: 19.3px;
+  height: 10.82px;
+}
+.bdac-div {
+  top: 109px;
+  left: 165px;
+  width: 47px;
+  height: 25px;
+}
+.bdcrl-text-div,
+.crl-cm-icon {
+  position: absolute;
+  top: 78px;
+  left: 283px;
+  width: 17.25px;
+  height: 8.76px;
+}
+.bdcrl-text-div {
+  top: 62px;
+  left: 217px;
+  width: 60px;
+  height: 25px;
+}
+.bdcrl-div,
+.bdcrl-title-icon {
+  position: absolute;
+  top: 7.5px;
+  left: 10.17px;
+  width: 26.67px;
+  height: 10.86px;
+}
+.bdcrl-div {
+  top: 62px;
+  left: 165px;
+  width: 47px;
+  height: 25px;
+}
+.babypic-div,
+.bd-cm-title-icon {
+  position: absolute;
+  top: 26.97px;
+  left: 191.77px;
+  width: 84.27px;
+  height: 12.59px;
+}
+.babypic-div {
+  top: 10px;
+  left: 8px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-floralwhite);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 148px;
+  height: 171px;
+}
+.bd-cm-cover {
+  position: absolute;
+  top: 90.9px;
+  left: 6px;
+  width: 311px;
+  height: 190px;
+}
+.bdweek-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 77px;
+  height: 29px;
+}
+.bdweek-text {
+  position: absolute;
+  top: 4px;
+  right: 5.75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65.51px;
+  height: 21px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bddiary-week-div1,
+.bdweek-text-div {
+  position: absolute;
+  top: 49px;
+  left: 240px;
+  width: 77px;
+  height: 29px;
+}
+.bddiary-week-div1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 57px;
+}
+.bdweek-title-icon {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  width: 33.46px;
+  height: 15.32px;
+}
+.bddate-text-div1,
+.bddiary-week-div {
+  position: absolute;
+  top: 48.9px;
+  left: 179px;
+  width: 57px;
+  height: 29px;
+}
+.bddate-text-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 92px;
+}
+.bddate-text {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 81px;
+  height: 21px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bdbabydiary-date-div,
+.bddate-text-div {
+  position: absolute;
+  top: 48.9px;
+  left: 82px;
+  width: 92px;
+  height: 29px;
+}
+.bdbabydiary-date-div {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 72px;
+}
+.bddate-title-icon {
+  position: absolute;
+  top: 7.9px;
+  left: 15px;
+  width: 42.6px;
+  height: 14.78px;
+}
+.bddiary-date-div,
+.bdtitle-text-div1 {
+  position: absolute;
+  top: 49px;
+  left: 6px;
+  width: 72px;
+  height: 29px;
+}
+.bdtitle-text-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 217px;
+}
+.bdtitle-text {
+  position: absolute;
+  top: 5px;
+  right: 11.95px;
+  display: flex;
+  align-items: center;
+  width: 196.77px;
+  height: 19px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bdtitle-text-div {
+  position: absolute;
+  top: 7px;
+  left: 100px;
+  width: 217px;
+  height: 29px;
+  text-align: left;
+}
+.bddiary-title-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 90px;
+  height: 29px;
+}
+.bd-title-icon,
+.bdtitle-div {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  width: 61.52px;
+  height: 14.81px;
+}
+.bdtitle-div {
+  top: 6.9px;
+  left: 6px;
+  width: 90px;
+  height: 29px;
+}
+.babydiarytextarea {
+  position: absolute;
+  top: 154.1px;
+  left: 26px;
+  width: 324px;
+  height: 483px;
+}
+.bddate-check-btn1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-lightpink-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 41px;
+  height: 26px;
+}
+.bdcheck-text-icon {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 24.04px;
+  height: 13.14px;
+}
+.bddate-check-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 98px;
+  left: 301px;
+  width: 41px;
+  height: 26px;
+}
+.bdinputdate-div {
+  position: absolute;
+  top: 96px;
+  left: 153px;
+  background-color: var(--color-white);
+  width: 138px;
+  height: 26px;
+  display: flex;
+}
+.bdselectdate-text-icon {
+  position: absolute;
+  top: 103px;
+  left: 35px;
+  width: 102.67px;
+  height: 15px;
+}
+.babydiary-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: "GowunDodum-Regular";
+}
+
+.BDDateSelect {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #eda1a1;
+  text-align: center;
+  font-weight: bold;
+}
+.bdcrl-title-icon {
+  width: 50%;
+  height: 50%;
+  margin-left: 2px;
+}
+
+.babyD_pic {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

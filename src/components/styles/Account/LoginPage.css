@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.kakao-logindiv,
+.login-btn-div,
+.naver-logindiv {
+  position: absolute;
+  top: 520px;
+  left: 213px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro-100);
+  width: 60px;
+  height: 60px;
+}
+.kakao-logindiv,
+.login-btn-div {
+  left: 102px;
+}
+.login-btn-div {
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightcoral-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 192px;
+  height: 41px;
+}
+.login-btn,
+.login-btn-text-icon {
+  position: absolute;
+  top: 7px;
+  left: 59px;
+  width: 73.49px;
+  height: 28.47px;
+}
+.login-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 441px;
+  left: 92px;
+  width: 192px;
+  height: 41px;
+}
+.login-btn:active,
+.login-join-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.login-id-div,
+.login-pw-div {
+  position: absolute;
+  top: 355px;
+  left: 58px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 260px;
+  height: 41px;
+}
+.login-id-div {
+  top: 284px;
+}
+.login-logo-icon {
+  position: absolute;
+  top: 182px;
+  left: 85px;
+  width: 206.47px;
+  height: 51.17px;
+}
+.login-divdiv-icon {
+  position: absolute;
+  top: 123px;
+  left: 21px;
+  width: 333px;
+  height: 530px;
+}
+.login-join-btn1,
+.login-joindiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login-joindiv1 {
+  border-radius: 40px;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 257px;
+  height: 71px;
+}
+.login-join-btn1 {
+  border-radius: 30px;
+  background-color: var(--color-palegoldenrod-300);
+  width: 58px;
+  height: 31px;
+}
+.login-join-btn,
+.login-join-btn-text-icon {
+  position: absolute;
+  top: 11.18px;
+  left: 11.95px;
+  width: 32.26px;
+  height: 10.97px;
+}
+.login-join-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 19px;
+  left: 170px;
+  width: 58px;
+  height: 31px;
+}
+.login-joindiv,
+.login-joindiv-text-icon {
+  position: absolute;
+  top: 30px;
+  left: 33px;
+  width: 117.38px;
+  height: 14.17px;
+}
+.login-joindiv {
+  top: 618px;
+  left: 59px;
+  width: 257px;
+  height: 71px;
+}
+.login-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}
+
+#login_username,
+#login_passdword {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  font-family: "GowunDodum-Regular";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.check {
+  text-align: center;
+  color: red;
+  display:none;
+  position: absolute;
+  top: 390px;
+  left: 70px;
+  font-size:15px;
+}

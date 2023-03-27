@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.bottom-div {
+  position: absolute;
+  top: 480px;
+  left: 1px;
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
+  background-color: #fceded;
+  width: 375px;
+  height: 332px;
+}
+.momdiary-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-lightcoral);
+  border-right: 5px solid var(--color-palegoldenrod-200);
+  border-bottom: 5px solid var(--color-palegoldenrod-200);
+  box-sizing: border-box;
+  width: 148px;
+  height: 180px;
+}
+.momdiaryname,
+.momdiaryname-div {
+  position: absolute;
+  top: 111px;
+  left: 39px;
+  width: 70px;
+  height: 30px;
+}
+.momdiaryname-div {
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-palegoldenrod-200);
+  box-sizing: border-box;
+}
+.momdiaryname {
+  font-size: var(--font-size-5xs);
+  letter-spacing: -0.23px;
+  font-family: "GowunDodum-Regular";
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.momdiarytitle-div-icon {
+  position: absolute;
+  top: 28px;
+  left: 19px;
+  border-radius: var(--br-sm);
+  width: 110px;
+  height: 40px;
+}
+.momdiary-div,
+.momdiaryname-text-icon {
+  position: absolute;
+  top: 38px;
+  left: 34px;
+  width: 78.1px;
+  height: 19.25px;
+}
+.momdiary-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 548px;
+  left: 200px;
+  width: 148px;
+  height: 180px;
+  opacity: 0;
+}
+.momdiary-div.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-right;
+}
+.momdiary-div:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.babydiary-div1,
+.babydiaryname-div {
+  position: absolute;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+}
+.babydiary-div1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-palegoldenrod-200);
+  border-right: 5px solid var(--color-lightcoral);
+  border-bottom: 5px solid var(--color-lightcoral);
+  width: 148px;
+  height: 180px;
+}
+.babydiaryname-div {
+  top: 111px;
+  left: 39px;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightcoral);
+  width: 70px;
+  height: 30px;
+}
+.babydiary-div,
+.babydiaryname-text-icon {
+  position: absolute;
+  top: 38px;
+  left: 35px;
+  width: 77.72px;
+  height: 19.44px;
+}
+.babydiary-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 548px;
+  left: 29px;
+  width: 148px;
+  height: 180px;
+  opacity: 0;
+}
+.babydiary-div.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-left;
+}
+.babydiary-div:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.daycnt-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  width: 318px;
+  height: 64px;
+}
+.daycnt,
+.daycnt-text2-icon {
+  position: absolute;
+  top: 22.65px;
+  left: 261.27px;
+  width: 17.93px;
+  height: 20.53px;
+}
+.daycnt {
+  top: 6px;
+  left: 166px;
+  letter-spacing: -0.23px;
+  display: inline-block;
+  width: 77px;
+  height: 43px;
+}
+.daycnt-div,
+.daycnt-text1-icon {
+  position: absolute;
+  top: 22.65px;
+  left: 36.32px;
+  width: 107.21px;
+  height: 20.58px;
+}
+.daycnt-div {
+  top: 453px;
+  left: 30px;
+  width: 318px;
+  height: 64px;
+}
+.babyimg-div-icon {
+  position: absolute;
+  top: 196px;
+  left: 63px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  opacity: 1;
+}
+.babyimg-div-icon.animate {
+  animation: 1s ease 0s 1 normal forwards wobble-hor-bottom;
+}
+.weekcnt,
+.weekcnt-text2-icon {
+  position: absolute;
+  top: 168.8px;
+  left: 270.45px;
+  width: 52.37px;
+  height: 17.03px;
+}
+.weekcnt {
+  top: 159px;
+  left: 202px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 61px;
+  height: 30px;
+}
+.weekcnt-text1-icon {
+  position: absolute;
+  top: 168.42px;
+  left: 163.3px;
+  width: 30.16px;
+  height: 16.16px;
+}
+.babyname-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background-color: #feffff;
+  box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+}
+.babyname,
+.babyname-div,
+.babyname-div1 {
+  position: absolute;
+  width: 89px;
+  height: 42px;
+}
+.babyname {
+  top: 0;
+  left: 0;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.babyname-div {
+  top: 148px;
+  left: 51px;
+  font-size: 25px;
+  color: black;
+  font-family: "GowunDodum-Regular";
+}
+.main-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightpink-200);
+  font-family: "PoetsenOne-Regular";
+}

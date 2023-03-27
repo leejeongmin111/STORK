@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.pen-icon,
+.write-btn-div-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.pen-icon {
+  top: 13px;
+  left: 9px;
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+}
+.write-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 665px;
+  left: 289px;
+  width: 60px;
+  height: 60px;
+}
+.depressed-go-btn:active,
+.mddate-check-btn:active,
+.write-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.depressed-go-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  width: 160px;
+  height: 60px;
+}
+.depressed-go-text-icon {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  width: 111.55px;
+  height: 16.72px;
+}
+.depressed-go-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 665px;
+  left: 25px;
+  width: 160px;
+  height: 60px;
+}
+.md-text-div1,
+.momdiarytextarea-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+}
+.momdiarytextarea-div {
+  background-color: var(--color-lightcoral-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 324px;
+  height: 483px;
+}
+.md-text-div1 {
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 311px;
+  height: 384px;
+}
+.md-text {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: inline-block;
+  width: 295px;
+  height: 367px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.md-text-div {
+  position: absolute;
+  top: 91px;
+  left: 6px;
+  width: 311px;
+  height: 384px;
+  font-size: var(--font-size-base);
+}
+.mdweight-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 67px;
+  height: 29px;
+}
+.mdweight-text {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 21px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mdweight-text-div {
+  position: absolute;
+  top: 49px;
+  left: 250px;
+  width: 67px;
+  height: 29px;
+  text-align: center;
+}
+.md-weight-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 72px;
+  height: 29px;
+}
+.mdweight-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 41.89px;
+  height: 14.69px;
+}
+.md-weight-div,
+.mddate-text-div1 {
+  position: absolute;
+  top: 49px;
+  left: 174px;
+  width: 72px;
+  height: 29px;
+}
+.mddate-text-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 101px;
+}
+.mddate-text {
+  position: absolute;
+  top: 4px;
+  right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 89px;
+  height: 21px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mddate-text-div {
+  position: absolute;
+  top: 49px;
+  left: 67px;
+  width: 101px;
+  height: 29px;
+  text-align: center;
+}
+.md-date-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 57px;
+  height: 29px;
+}
+.md-date-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 34px;
+  height: 14.78px;
+}
+.md-date-div,
+.mdtitle-text-div1 {
+  position: absolute;
+  top: 49px;
+  left: 6px;
+  width: 57px;
+  height: 29px;
+}
+.mdtitle-text-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 236px;
+}
+.mdtitle-text {
+  position: absolute;
+  top: 5px;
+  right: 13px;
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 19px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mdtitle-text-div {
+  position: absolute;
+  top: 7px;
+  left: 81px;
+  width: 236px;
+  height: 29px;
+}
+.md-title-div,
+.md-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  width: 32.8px;
+  height: 14.56px;
+}
+.md-title-div {
+  top: 7px;
+  left: 6px;
+  width: 72px;
+  height: 29px;
+}
+.momdiarytextarea {
+  position: absolute;
+  top: 154px;
+  left: 25px;
+  width: 324px;
+  height: 483px;
+}
+.mddate-check-btn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-lightpink-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 41px;
+  height: 26px;
+}
+.mdcheck-text-icon {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 24.04px;
+  height: 13.14px;
+}
+.mddate-check-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 96px;
+  left: 301px;
+  width: 41px;
+  height: 26px;
+}
+.inputdate-div {
+  position: absolute;
+  top: 94px;
+  left: 153px;
+  background-color: var(--color-white);
+  width: 138px;
+  height: 26px;
+  display: flex;
+}
+.mdselectdt-title-icon {
+  position: absolute;
+  top: 101px;
+  left: 35px;
+  width: 102.67px;
+  height: 15px;
+}
+.momdiary-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: "GowunDodum-Regular";
+}
+
+.DateSelect {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #eda1a1;
+  text-align: center;
+  font-weight: bold;
+}

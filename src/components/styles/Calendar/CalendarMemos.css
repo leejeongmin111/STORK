@@ -1,0 +1,39 @@
+.calendar-memos-child {
+  position: absolute;
+  height: 33.33%;
+  width: 2.67%;
+  top: 33.33%;
+  right: 89.33%;
+  bottom: 33.33%;
+  left: 8%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div_cale_memo,
+.div1_cale_memo {
+  position: absolute;
+  height: 83.33%;
+  width: 72.27%;
+  top: 10%;
+  left: 33.73%;
+  display: flex;
+  align-items: center;
+}
+.div1_cale_memo {
+  width: 18.33%;
+  left: 12%;
+  text-align: center;
+  justify-content: center;
+}
+.calendar-memos {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 15px;
+  color: #000;
+  font-family: Inter;
+}

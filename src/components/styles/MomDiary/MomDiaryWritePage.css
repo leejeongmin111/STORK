@@ -1,0 +1,311 @@
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.mdwritecomplete-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-lightcoral-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 123px;
+  height: 43px;
+}
+.mdwritecomplete-text-icon {
+  position: absolute;
+  top: 13.56px;
+  left: 30.01px;
+  width: 62.68px;
+  height: 15.14px;
+}
+.mdwritecomplete-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 671px;
+  left: 220px;
+  width: 123px;
+  height: 43px;
+}
+.mdwritecancle-div:active,
+.mdwritecomplete-div:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.mdwritecancle-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid var(--color-lightcoral-200);
+  box-sizing: border-box;
+  width: 123px;
+  height: 43px;
+}
+.mdwritecancle-text-icon {
+  position: absolute;
+  top: 13.22px;
+  left: 30.07px;
+  width: 62.58px;
+  height: 15.48px;
+}
+.mdwritecancle-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 671px;
+  left: 33px;
+  width: 123px;
+  height: 43px;
+}
+.momdiarywrite-div1,
+.momdiarywrite-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+}
+.momdiarywrite-div1 {
+  background-color: var(--color-lightcoral-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 324px;
+  height: 483px;
+}
+.momdiarywrite-text-div1 {
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 311px;
+  height: 389px;
+  display: flex;
+}
+.momdiarywrite-text-div {
+  position: absolute;
+  top: 87px;
+  left: 6px;
+  width: 311px;
+  height: 389px;
+}
+.momdiarywrite-weight-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 67px;
+  height: 29px;
+  display: flex;
+}
+.momdiarywrite-weight-div1,
+.momdiarywrite-weight-text-div {
+  position: absolute;
+  top: 47px;
+  left: 251px;
+  width: 67px;
+  height: 29px;
+}
+.momdiarywrite-weight-div1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 72px;
+}
+.momdiarywrite-weight-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 41.89px;
+  height: 14.69px;
+}
+.momdiarywrite-weight-div {
+  position: absolute;
+  top: 47px;
+  left: 176px;
+  width: 72px;
+  height: 29px;
+}
+.momdiarywrite-date-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 101px;
+  height: 29px;
+}
+.momdiarywrite-date-text {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 24px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.momdiarywrite-date-div1,
+.momdiarywrite-date-text-div {
+  position: absolute;
+  top: 47px;
+  left: 67px;
+  width: 101px;
+  height: 29px;
+}
+.momdiarywrite-date-div1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 57px;
+}
+.momdiarywrite-date-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 34px;
+  height: 14.78px;
+}
+.momdiarywrite-date-div {
+  position: absolute;
+  top: 47px;
+  left: 7px;
+  width: 57px;
+  height: 29px;
+}
+.momdiarywrite-title-text-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 236px;
+  height: 29px;
+  display: flex;
+}
+.momdiarywrite-title-text-div {
+  position: absolute;
+  top: 8px;
+  left: 82px;
+  width: 236px;
+  height: 29px;
+}
+.momdiarywrite-title-div,
+.momdiarywrite-title-title-icon {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  width: 32.8px;
+  height: 14.56px;
+}
+.momdiarywrite-title-div {
+  left: 7px;
+  width: 72px;
+  height: 29px;
+}
+.momdiarywrite-div {
+  position: absolute;
+  top: 150px;
+  left: 26px;
+  width: 324px;
+  height: 483px;
+}
+.momdiarywrite-title-icon {
+  position: absolute;
+  top: 98.15px;
+  left: 79.3px;
+  width: 217.01px;
+  height: 23.73px;
+}
+.momdiarywrite-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: "GowunDodum-Regular";
+}
+
+.MDtitle_textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+  font-family: "GowunDodum-Regular";
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  resize: none;
+  text-align: center;
+}
+.MDweight_textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+  font-family: "GowunDodum-Regular";
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  resize: none;
+}
+.MDtext_textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  font-family: "GowunDodum-Regular";
+  resize: none;
+  font-size: 12px;
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+.labor-compo-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 352px;
+  height: 59px;
+  border: 3px solid #433232;
+}
+.labor-inner-test-time {
+  position: absolute;
+  top: 14px;
+  left: 276px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+}
+.labor-inner-rest-icon {
+  position: absolute;
+  top: 21px;
+  left: 238px;
+  width: 31.41px;
+  height: 17.35px;
+}
+.labor-inner-labor-time {
+  position: absolute;
+  top: 14px;
+  left: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+}
+.labor-inner-labor-icon {
+  position: absolute;
+  top: 22.24px;
+  left: 119.77px;
+  width: 32.45px;
+  height: 16.36px;
+}
+.labor-inner-time {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-size: 30px;
+  color: var(--color-darkslategray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 93px;
+  height: 38px;
+}
+.labor-compo {
+  position: relative;
+  width: 100%;
+  height: 59px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-lightcoral-100);
+  font-family: "PoetsenOne-Regular";
+  margin-bottom: 6px;
+}

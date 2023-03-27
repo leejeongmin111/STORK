@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.labor-painbtn-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 120px;
+  background-color: var(--color-palegoldenrod-300);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  border: 10px solid var(--color-lightcoral-200);
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
+}
+.labor_painbtn_text {
+  position: absolute;
+  top: 154px;
+  left: 58px;
+  font-size: 50px;
+  font-family: "PoetsenOne-Regular";
+  color: var(--color-lightcoral-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+  height: 41px;
+}
+.labor-painbtn-img-icon {
+  position: absolute;
+  top: 34px;
+  left: 60px;
+  width: 120px;
+  height: 113.32px;
+  object-fit: cover;
+}
+.labor-painbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 550px;
+  left: 68px;
+  width: 240px;
+  height: 240px;
+}
+.labor-help-btn:active,
+.labor-home-btn:active,
+.labor-painbtn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.labor-alert-input-div {
+  position: absolute;
+  top: 497px;
+  left: 38px;
+  background-color: var(--color-mistyrose-100);
+  width: 300px;
+  height: 40px;
+}
+.labor-compo-inputdiv {
+  position: absolute;
+  top: 164.64px;
+  left: 11px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 352px;
+  height: 319px;
+  overflow-y: auto;
+}
+.labor-compo-inputdiv-title-icon {
+  position: absolute;
+  top: 129px;
+  left: 130.71px;
+  width: 113.57px;
+  height: 25.12px;
+}
+.labor-timer-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 30px 30px;
+  background-color: var(--color-lightpink-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 375px;
+  height: 113px;
+}
+.labor-help-btn-div-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 68px;
+  height: 68px;
+}
+.labor-help-btn-img-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.labor-help-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 304px;
+  width: 60px;
+  height: 60px;
+}
+.labor-help-title-icon,
+.timer-text {
+  position: absolute;
+  top: 14.9px;
+  left: 318.9px;
+  width: 30.42px;
+  height: 13.88px;
+}
+.timer-text {
+  top: 54px;
+  left: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 164px;
+  height: 46px;
+  font-size: 40px;
+}
+.labor-home-btn,
+.timer-title-icon {
+  position: absolute;
+  top: 20px;
+  left: 147px;
+  width: 81.26px;
+  height: 22.92px;
+}
+.labor-home-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 36px;
+  left: 12px;
+  width: 60px;
+  height: 60px;
+}
+.labor-home-title-icon,
+.labor-timer-div {
+  position: absolute;
+  top: 15.35px;
+  left: 22.51px;
+  width: 39.46px;
+  height: 10.8px;
+}
+.labor-timer-div {
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 113px;
+}
+.labor-page {
+  position: relative;
+  background-color: #ffe7e7;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-8xl);
+  color: var(--color-white);
+  font-family: "PoetsenOne-Regular";
+}
+
+.labor-compo-inputdiv{
+  -ms-overflow-style: none;
+}
+.labor-compo-inputdiv::-webkit-scrollbar{
+ display:none;
+}
+

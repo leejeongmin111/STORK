@@ -1,0 +1,431 @@
+@font-face {
+  font-family: "PoorStory-Regular";
+  src: url("../../../assets/fonts/PoorStory-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoorStory-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoorStory-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff2"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("woff"),
+    url("../../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.go-btn1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  border: 3px solid var(--color-lightpink-200);
+  box-sizing: border-box;
+  width: 146px;
+  height: 34px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+.back-text-icon,
+.go-btn {
+  position: absolute;
+  top: 12px;
+  left: 48px;
+  width: 80.23px;
+  height: 9.92px;
+}
+.go-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 695px;
+  left: 114px;
+  width: 146px;
+  height: 34px;
+}
+.go-btn:hover {
+  animation: 2s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.go-btn:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.first-meet-icon {
+  position: absolute;
+  top: 597.45px;
+  left: 20.17px;
+  width: 341.33px;
+  height: 55.21px;
+}
+.num5-write-div,
+.num5-write-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 85px;
+}
+.num5-write-text {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  height: 66.56px;
+}
+.num5-div,
+.num5-write {
+  position: absolute;
+  top: 498px;
+  left: 93px;
+  width: 270px;
+  height: 85px;
+}
+.num5-div {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--color-lightpink-100);
+  box-sizing: border-box;
+  width: 60px;
+  height: 30px;
+}
+.num5-text-icon {
+  position: absolute;
+  top: 9.23px;
+  left: 9.45px;
+  width: 41.23px;
+  height: 10.36px;
+}
+.num4-write-div,
+.num5 {
+  position: absolute;
+  top: 495px;
+  left: 19px;
+  width: 60px;
+  height: 30px;
+}
+.num4-write-div {
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 75px;
+}
+.num4-write,
+.num4-write-text {
+  position: absolute;
+  width: 270px;
+  height: 82px;
+}
+.num4-write-text {
+  top: 0;
+  left: 0;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+}
+.num4-write {
+  top: 400px;
+  left: 93px;
+}
+.num4,
+.num4-text-icon {
+  position: absolute;
+  top: 9.45px;
+  left: 9.58px;
+  width: 40.17px;
+  height: 9.96px;
+}
+.num4 {
+  top: 396px;
+  left: 19px;
+  width: 60px;
+  height: 30px;
+}
+.num3-text-icon,
+.num3-write,
+.num3-write-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 82px;
+}
+.num3-text-icon,
+.num3-write {
+  top: 300px;
+  left: 93px;
+}
+.num3-text-icon {
+  top: 9.45px;
+  left: 9.83px;
+  width: 40.14px;
+  height: 9.96px;
+}
+.num2-write-div,
+.num3 {
+  position: absolute;
+  top: 297px;
+  left: 19px;
+  width: 60px;
+  height: 30px;
+}
+.num2-write-div {
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 57px;
+}
+.num2-5-text,
+.won-icon {
+  position: absolute;
+  top: 39px;
+  left: 180px;
+  width: 9.73px;
+  height: 10.68px;
+}
+.num2-5-text {
+  top: 33px;
+  left: 136px;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+}
+.num2-5-icon {
+  position: absolute;
+  top: 37px;
+  left: 96px;
+  width: 35px;
+  height: 13px;
+}
+.num2-4-text,
+.won-icon1 {
+  position: absolute;
+  top: 39px;
+  left: 76px;
+  width: 9.73px;
+  height: 10.68px;
+}
+.num2-4-text {
+  top: 33px;
+  left: 34px;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+}
+.num2-4-icon {
+  position: absolute;
+  top: 37px;
+  left: 5px;
+  width: 25px;
+  height: 13px;
+}
+.num2-3-text,
+.won-icon2 {
+  position: absolute;
+  top: 9px;
+  left: 258px;
+  width: 9.73px;
+  height: 10.68px;
+}
+.num2-3-text {
+  top: 2px;
+  left: 216px;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+}
+.num2-3-icon {
+  position: absolute;
+  top: 7px;
+  left: 186px;
+  width: 25px;
+  height: 13px;
+}
+.num2-2-text,
+.won-icon3 {
+  position: absolute;
+  top: 9px;
+  left: 169px;
+  width: 9.73px;
+  height: 10.68px;
+}
+.num2-2-text {
+  top: 2px;
+  left: 125px;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+}
+.num2-2-icon {
+  position: absolute;
+  top: 7px;
+  left: 96px;
+  width: 25px;
+  height: 13px;
+}
+.num2-1-text,
+.won-icon4 {
+  position: absolute;
+  top: 8.92px;
+  left: 76.49px;
+  width: 9.73px;
+  height: 10.68px;
+}
+.num2-1-text {
+  top: 3px;
+  left: 33px;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+}
+.num2-1-icon,
+.num2-write {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 25px;
+  height: 13px;
+}
+.num2-write {
+  top: 220px;
+  left: 88px;
+  width: 274px;
+  height: 57px;
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  font-family: "PoetsenOne-Regular";
+}
+.num2,
+.num2-text-icon {
+  position: absolute;
+  top: 9.74px;
+  left: 9.37px;
+  width: 40.66px;
+  height: 9.78px;
+}
+.num2 {
+  top: 221px;
+  left: 19px;
+  width: 60px;
+  height: 30px;
+}
+.num1-write-div {
+  top: 0;
+  left: 0;
+}
+.num1-write,
+.num1-write-div,
+.num1-write-text {
+  position: absolute;
+  width: 259px;
+  height: 30px;
+}
+.num1-write-text {
+  top: 0;
+  left: 0;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+}
+.num1-write {
+  top: 163px;
+  left: 96px;
+  font-size: 20px;
+}
+.num1,
+.num1-text-icon {
+  position: absolute;
+  top: 9.65px;
+  left: 9.86px;
+  width: 39.92px;
+  height: 9.81px;
+}
+.num1 {
+  top: 163px;
+  left: 19px;
+  width: 60px;
+  height: 30px;
+}
+.choice1-title-icon {
+  position: absolute;
+  top: 100.37px;
+  left: 78.9px;
+  width: 215.71px;
+  height: 23.76px;
+}
+.policymoney-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-black);
+  font-family: "PoorStory-Regular";
+}
