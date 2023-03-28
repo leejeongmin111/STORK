@@ -8,7 +8,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `캘린더`
+# 캘린더
 
 날짜 별 일정 등록 및 관리
 
@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 
 ![캘린더](https://user-images.githubusercontent.com/112473316/228166176-76c88edc-c67d-465a-a19f-5b28d770a91b.gif)
 
-### `진통 기록`
+# 진통 기록
 
 - 진진통 : (출산 임박 시)
 
@@ -34,7 +34,7 @@ You may also see any lint errors in the console.
 
 ![진통](https://user-images.githubusercontent.com/112473316/228166151-8454c7ea-7166-49cd-9d7b-cead062972bf.gif)
 
-### `산모 일기`
+# 산모 일기
 
 산모 일기 작성
 
@@ -50,7 +50,7 @@ You may also see any lint errors in the console.
 ![산모수첩](https://user-images.githubusercontent.com/112473316/228166107-54dc94c7-c35a-4332-a686-0b64f9709c10.gif)
 
 
-### `태아 일기`
+# 태아 일기
 
 태아 일기 작성
 
