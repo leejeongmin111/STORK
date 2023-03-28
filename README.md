@@ -19,8 +19,10 @@ You may also see any lint errors in the console.
 
 ### `진통 기록`
 
-진통 시작 및 종료 시 버튼 클릭
 - 진진통 : (출산 임박 시)
+
+진통 시작 및 종료 시 버튼 클릭
+
 
 -> 진통 주기 및 기간 기록
 
