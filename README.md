@@ -1,2 +1,2 @@
 # STORK
-![캘린더](https://user-images.githubusercontent.com/112473316/228146883-7c5e77ba-30c5-4d8d-8a0e-a4fc01289904.gif)
+![제목 없는 동영상 - Clipchamp로 제작](https://user-images.githubusercontent.com/112473316/228148057-cceb6256-e7a1-4083-afd6-8931cbb2e627.gif)
